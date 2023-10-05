@@ -70,6 +70,5 @@
 }
 
 .icon:hover{
-    height: 100px;
-    width: 100px;
+    transform: scale(1.05, 1.05);
 }
