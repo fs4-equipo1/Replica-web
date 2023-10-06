@@ -1,3 +1,4 @@
+/* [BOTONES REDES SOCIALES] */
 .SocialButton{
     margin-top: auto;
     margin-bottom: auto;
@@ -16,3 +17,45 @@
 .icon:hover{
     transform: scale(1.05, 1.05);
 }
+
+/* [CARDS PSBLOG] */
+
+.blogEntry{
+    display: block;
+    width: 300px;
+    height: inherit;
+    margin: 20px;
+    border: 1px;
+    border-color: transparent;
+    border-radius: 15px;
+    box-shadow: 0px 0px 5px 3px darkslategrey;
+}
+
+.blogEntry img{
+    max-width: 300px;
+    border-radius: inherit;
+}
+
+.blogEntryText{
+    display: block;
+    margin: 10px;
+}
+
+.referencia{
+    display: flex;
+    flex-direction: row;
+    margin: inherit;
+}
+
+.referencia img{
+    max-width: 50px;
+    max-height: 50px;
+    flex-grow: 0;
+}
+
+.textoReferencia{
+    max-height: 50px;
+    flex-grow: 2;
+    background-color: brown;
+}
+
