@@ -1,0 +1,19 @@
+/* DIVISORES */
+
+.divisorGeneric{
+    background-color: rgb(233, 233, 233);
+    padding: 10px;
+    display: block;
+}
+
+.divTxtCentral{
+    display: block;
+    max-width: 620px;
+    margin: auto;
+}
+
+.buttonsContainer{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
