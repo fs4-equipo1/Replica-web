@@ -12,8 +12,6 @@ nav{
 
     display: flex;
     flex-direction: row;
-    
-
 
 }
 
@@ -25,7 +23,14 @@ nav{
 .select-button{
 
     border: none;
+    color: black;
+    font-style: bold;
 
+}
+
+.select-button:hover{
+
+    color: #0068bd;
 }
 
 body{
