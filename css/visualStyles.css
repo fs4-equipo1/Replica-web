@@ -21,41 +21,53 @@
 /* [CARDS PSBLOG] */
 
 .blogEntry{
-    display: block;
-    width: 300px;
-    height: inherit;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 500px;
     margin: 20px;
     border: 1px;
     border-color: transparent;
     border-radius: 15px;
-    box-shadow: 0px 0px 5px 3px darkslategrey;
+    box-shadow: 0px 3px 5px 3px gray;
 }
 
-.blogEntry img{
-    max-width: 300px;
+.blogEntryImage{
+    display: block;
+    margin: 10px;
+    max-width: 480px;
+    max-height: calc(max-width/(16/9));
     border-radius: inherit;
 }
 
 .blogEntryText{
     display: block;
     margin: 10px;
+    height: fit-content;
+}
+
+.blogEntryText h6{
+    height: 100px;
 }
 
 .referencia{
     display: flex;
     flex-direction: row;
-    margin: inherit;
+    margin: 10px;
 }
 
 .referencia img{
+    display: block;
+    margin: 10px;
     max-width: 50px;
     max-height: 50px;
     flex-grow: 0;
 }
 
 .textoReferencia{
-    max-height: 50px;
+    display: flex;
+    flex-direction: column;
     flex-grow: 2;
-    background-color: brown;
+    margin: 10px;
 }
 

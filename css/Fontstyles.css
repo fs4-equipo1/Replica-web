@@ -31,34 +31,23 @@
     text-align: left;
 }
 
-.blogEntry p{
+.blogEntry h6{
     font-family: Arial, Helvetica, sans-serif;
     font-size: 14px;
     font-style: normal;
     font-weight: 400;
     color: rgb(107, 107, 107);
+    max-height: fit-content;
+    overflow: hidden;
 }
 
-.referencia p{
+.textoReferencia p{
+    display: block;
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 14px;
-    font-style: normal;
-    font-weight: 200;
-    color: rgb(107, 107, 107);
-    text-align: left;
-}
-
-.textoReferencia h4{
-    text-decoration: none;
-    font-size: 5px;
-}
-
-.textoReferencia h5{
-    text-decoration: none;
-    font-size: 5px;
-}
-
-.textoReferencia h6{
-    text-decoration: none;
-    font-size: 5px;
+    font-weight: bold;
+    font-size: 10px;
+    color: black;
+    margin-top: auto;
+    margin-bottom: auto;
+    text-align: start;
 }
