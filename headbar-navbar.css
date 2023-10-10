@@ -1,0 +1,30 @@
+
+.header{
+
+    background-color: black;
+
+    width: 100vw;
+    height: 5vh;
+
+}
+
+nav{
+
+    display: flex;
+    flex-direction: row;
+    
+
+
+}
+
+.logo{
+    padding-left: 85vw;
+
+}
+
+.select-button{
+
+    border: none;
+
+}
+
