@@ -1,14 +1,39 @@
-.card {
+
+
+
+
+
+.dinamic-card{
+    width: 100vw;
+    height: 90vh;
+}
+.img-container{
+    width: 100vw;
+}
+
+.img-selector{
+    width: 100vw;
+    height: 20px;
+
+    background-color: aqua;
+    position: relative;
+
+    overflow: auto;
+
+    display: flex;
+    flex-direction: row;
+}
+
+.img-button {
     width: 300px;
     height: 200px;
   
     border: 1px solid black;
     border-radius: 10px;
-  
     transition: 0.3s ease-in-out;
   }
-  .card:hover {
-    box-shadow: 0px 10px 10px 0px rgba(137, 137, 137, 0.537);
+  .img-button:hover {
+    box-shadow: 0px 10px 10px 0px rgb(35, 21, 231);
   
     transform: translateY(-20px);
   }
