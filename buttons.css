@@ -1,0 +1,32 @@
+
+.button-white {
+    display: inline-block;
+    padding: 10px 20px;
+    text-decoration: none;
+    color: black;
+    background-color: white;
+    font-weight: bold;
+    border-radius: 25px;
+    transition: border-color 0.3s;
+}
+
+.button-red {
+    display: inline-block;
+    padding: 10px 20px;
+    text-decoration: none;
+    color: white;
+    background-color: #d63d00;
+    font-weight: bold;
+    border-radius: 25px;
+    transition: border-color 0.3s;
+}
+
+.button-white:hover {
+    outline: 2px solid white;
+    outline-offset: 2px;
+}
+  
+.button-red:hover {
+    outline: 2px solid #d63d00;
+    outline-offset: 2px;
+}
