@@ -8,7 +8,7 @@ html {
 h2 {
     font-size: 2em;
     margin-bottom: 10px;
-    width: 600px;
+    width: 100%;
 }
   
   p {
@@ -19,7 +19,8 @@ h2 {
 .section {
     height: max-content;
     width: 100%;
-    padding:50px;
+    padding-top: 50px;
+    padding-bottom: 50px;
     background-size: cover;
     background-position: center;
     color: white;
@@ -38,8 +39,7 @@ h2 {
 
 .text-container {
     margin-right: auto;
-    width: 50%;
-    
+    width: 50%;    
 }
 
 .logo-merch {
@@ -78,7 +78,6 @@ h2 {
 }
 
 .text-product {
-    font-size: 20px;
     padding: 8px;
     height: 20%;
     display: flex;
@@ -100,12 +99,12 @@ max-height:100%;
 }
 
 .button-container .button-red{
-    margin: 25px;
+    margin: 15px;
 }
 
 .button-container .button-white{
     margin-top: 20px;
-    margin-bottom: 20px;
+    margin-bottom: 50px;
 }
 
 
@@ -121,6 +120,11 @@ max-height:100%;
         flex-wrap: wrap;
         
     }
+    .text-container{
+        width: 100%;
+    }
+
+  
 }
 
 
