@@ -1,5 +1,8 @@
-.txtTitleLarger{
+body{
     font-family: Arial, Helvetica, sans-serif;
+}
+
+.txtTitleLarger{
     font-size: 43px;
     font-style: normal;
     font-weight: 300;
@@ -7,7 +10,6 @@
 }
 
 .txtTitleLarge{
-    font-family: Arial, Helvetica, sans-serif;
     font-size: 30px;
     font-style: normal;
     font-weight: 200;
@@ -15,7 +17,14 @@
 }
 
 .txtContent{
-    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    color: black;
+    text-align: center;
+}
+
+.txtSubContent{
     font-size: 14px;
     font-style: normal;
     font-weight: 400;
@@ -23,8 +32,9 @@
     text-align: center;
 }
 
+/* SECCION DE BLOG  */
+
 .blogEntry h2{
-    font-family: Arial, Helvetica, sans-serif;
     font-size: 30px;
     font-style: normal;
     font-weight: 200;
@@ -32,7 +42,6 @@
 }
 
 .blogEntry h6{
-    font-family: Arial, Helvetica, sans-serif;
     font-size: 14px;
     font-style: normal;
     font-weight: 400;
@@ -43,7 +52,6 @@
 
 .textoReferencia p{
     display: block;
-    font-family: Arial, Helvetica, sans-serif;
     font-weight: bold;
     font-size: 10px;
     color: black;
@@ -51,3 +59,5 @@
     margin-bottom: auto;
     text-align: start;
 }
+
+/* FIN SECCION BLOG  */
