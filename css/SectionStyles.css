@@ -1,0 +1,27 @@
+/* DIVISORES */
+
+.divisorGeneric{
+    background-color: rgb(233, 233, 233);
+    padding: 10px;
+    display: block;
+}
+
+.divTxtCentral{
+    display: block;
+    max-width: 620px;
+    margin: auto;
+}
+
+.button-container-RRSS{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.divCarrouselCards{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: baseline;
+    gap: 10px;
+}
