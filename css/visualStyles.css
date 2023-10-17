@@ -4,17 +4,17 @@
     margin-bottom: auto;
     margin-left: 15px;
     margin-right: 15px;
-    height: 94px;
-    width: 94px;
+    border-radius: 18px;
+    overflow: hidden;
 }
 
 .icon{
-    height: 94px;
-    width: 94px;
-    border-radius: 18px;
+    height: 87px;
+    width: 87px;
+    border-radius: inherit;
 }
 
-.icon:hover{
+.SocialButton:hover{
     transform: scale(1.05, 1.05);
 }
 
