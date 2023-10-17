@@ -12,10 +12,15 @@ nav{
 
     display: flex;
     flex-direction: row;
+    
+    position: sticky;
+
+    align-items: center;
 
 }
 
 .logo{
+
     padding-left: 85vw;
 
 }
