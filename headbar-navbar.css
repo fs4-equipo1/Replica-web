@@ -21,7 +21,8 @@ nav{
 
 .logo{
 
-    padding-left: 85vw;
+    padding-top: 7px;
+    padding-left: 90vw;
 
 }
 
@@ -42,3 +43,12 @@ body{
     margin: 0;
 }
 
+.buttons{
+
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+
+    align-items: center;
+
+}
