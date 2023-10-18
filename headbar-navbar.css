@@ -12,11 +12,19 @@ nav{
 
     display: flex;
     flex-direction: row;
+    justify-content: space-between;
     
     position: sticky;
 
     align-items: center;
 
+}
+
+.izquierda-nav{
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
 }
 
 .logo{
