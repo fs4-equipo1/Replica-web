@@ -1,0 +1,59 @@
+
+body{
+
+    margin: 0;
+    background-color: #0068bd;
+}
+
+footer{
+
+    margin: 0;
+    width: 100vw;
+
+    color: white;
+    background-color: #0068bd;
+}
+
+li{
+    list-style: none;
+    padding: auto;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+}
+
+.footer-button{
+
+    background-color: transparent;
+    border-color: transparent;
+    color: white;
+    font-weight: bold;
+}
+
+.grid-footer{
+
+    display: grid;
+    gap: 2rem;
+    grid-template-columns: repeat(6, 1fr);
+}
+
+.footer-nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.left{
+    display: flex;
+    flex-direction: row;
+}
+
+.right{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    gap: 20px;
+}
