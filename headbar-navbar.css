@@ -4,7 +4,7 @@
     background-color: black;
 
     width: 100vw;
-    height: 5vh;
+    height: 7vh;
 
 }
 
@@ -59,4 +59,27 @@ body{
 
     align-items: center;
 
+}
+
+.button-primary{
+
+    margin: 5px;
+    border-radius: 15px;
+    color: white;
+    background-color: #0068bd;
+    border-color: transparent;
+
+}
+
+.search{
+
+    margin: 5px;
+    border-radius: 5px;
+    border-color: transparent;
+    background-color: transparent;
+}
+
+.search:hover{
+
+    color: #0068bd;
 }
