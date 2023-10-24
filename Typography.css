@@ -20,7 +20,6 @@ body{
     font-size: 14px;
     font-style: normal;
     font-weight: 400;
-    color: black;
     text-align: center;
 }
 
@@ -46,8 +45,8 @@ body{
     font-style: normal;
     font-weight: 400;
     color: rgb(107, 107, 107);
-    max-height: fit-content;
     overflow: hidden;
+    text-overflow: ellipsis;
 }
 
 .textoReferencia p{
