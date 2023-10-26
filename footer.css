@@ -2,7 +2,7 @@
 body{
 
     margin: 0;
-    background-color: #0068bd;
+    background-color: #00439C;
 }
 
 footer{
@@ -11,12 +11,13 @@ footer{
     width: 100vw;
 
     color: white;
-    background-color: #0068bd;
+    background-color: #00439C;
 }
 
 li{
     list-style: none;
     padding: auto;
+
 }
 
 a{
@@ -35,8 +36,9 @@ a{
 .grid-footer{
 
     display: grid;
-    gap: 2rem;
+    gap: 2px;
     grid-template-columns: repeat(6, 1fr);
+    padding: 10px;
 }
 
 .footer-nav{
@@ -48,6 +50,9 @@ a{
 .left{
     display: flex;
     flex-direction: row;
+    align-items: center;
+    gap: 10px;
+    margin-left: 10px;
 }
 
 .right{
@@ -56,4 +61,12 @@ a{
     justify-content: space-around;
     align-items: center;
     gap: 20px;
+}
+
+.redes{
+
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+    align-items: center;
 }
