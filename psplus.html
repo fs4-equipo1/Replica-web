@@ -6,24 +6,12 @@
     <link rel="stylesheet" href="psplus.css" />
     <link
       rel="stylesheet"
-      href="https://unpkg.com/swiper@8/swiper-bundle.min.css"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
     />
-    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js">
-      const swiper = new Swiper('.swiper', {
-        // Optional parameters
-        direction: 'horizontal',
-        loop: true,
+    <!-- <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper@8/swiper-bundle.min.css" -->
 
-        // Navigation arrows
-        navigation: {
-          nextEl: '.swiper-button-next',
-          prevEl: '.swiper-button-prev',
-        },
-        pagination: {
-            el: '.swiper-pagination',
-          },
-      });
-    </script>
     <script
       src="https://kit.fontawesome.com/4d4beecfc3.js"
       crossorigin="anonymous"
@@ -31,8 +19,12 @@
     <title>PlayStation Plus</title>
   </head>
   <body>
-    <div class="swiper">
-      <div class="swiper-wrapper">
+    <div class="swiper carrusel">
+      <h1 class="titulo-general"> Descubre PlayStation Plus</h1>
+        <p class="parrafo-general"> Disfruta de cientos de juegos clásicos, de PS4 o de PS5 y descubre épicas aventuras, indies únicos, los favoritos para jugar en familia y muchos más.</p>
+        <br>
+        <div class="swiper-wrapper">
+        
         <div class="swiper-slide">
           <div
             class="card-container"
@@ -64,7 +56,7 @@
         <div class="swiper-slide">
           <div
             class="card-container"
-            style="background-image: url(segundacard.png)"
+            style="background-image: url(tercercard.png)"
           >
             <h3>PlayStation Plus Essential</h3>
             <p class="paragraph">
@@ -77,9 +69,42 @@
           </div>
         </div>
       </div>
-      <div class="swiper-pagination"></div>
+      
       <div class="swiper-button-prev"></div>
       <div class="swiper-button-next"></div>
+      <div class="swiper-pagination"></div>
+      
+      <div class="button-container">
+        <a href="#" class="button-blue">Descubre PlayStation Plus</a>
+        </div>
+        
     </div>
+   
+
+    
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script>
+      const swiper = new Swiper(".swiper", {
+        // slidesPerView: 3,
+        // spaceBetween: 15,
+
+        direction: "horizontal",
+        loop: true,
+        pagination: {
+          el: ".swiper-pagination",
+          type: "bullets",
+          clickable: true,
+        },
+
+        navigation: {
+          nextEl: ".swiper-button-next",
+          prevEl: ".swiper-button-prev",
+        },
+        scrollbar: {
+          el: ".swiper-scrollbar",
+        },
+      });
+    </script>
+     
   </body>
 </html>
