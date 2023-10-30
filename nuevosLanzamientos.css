@@ -1,3 +1,9 @@
+
+body{
+  margin: 0;
+  padding: 0;
+}
+
 .text-container{
   display: flex;
   justify-content: space-between;
@@ -33,6 +39,7 @@ section{
   margin-left: calc(80px * -1);
   margin-right: calc(80px * -1);
   justify-content: center;
+  
 }
 
 .radio-inputs {
@@ -46,6 +53,7 @@ section{
   box-shadow: 0 0 0px 1px rgba(0, 0, 0, 0.06);
   width: 300px;
   font-size: 14px;
+  position: fixed;
 }
 
 
@@ -80,21 +88,54 @@ section{
   color: #207fb9 ;
 }
 
-.games-container{
+/*.games-container{
   display: flex;
   flex-wrap: wrap;
   flex-direction: row;
   align-items: center;
   justify-content: center;
   gap: 5px;
+}*/
+
+.games-container{
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  gap: 10px;
+  
 }
-.games{
-  display: flex;
-  flex-direction: column;
-  height: 184.5px;
-  width: 209.5;
-  background-color: red;
+
+
+
+.contenedorJuegos{
+  text-align: center;
+  height: 100%;
+  width: 100%;
 }
+
 a{
   text-decoration: none;
+  padding: 10px;
+  text-align: end;
+  margin: 10px;
+  margin-bottom: 35px;
+  aspect-ratio: 1/1;
+  border-radius: 6px;
+}
+
+.images-games img{
+  max-width: 100%;
+  border-radius: 6px;
+  height: auto;
+}
+
+p{
+  margin-top: 10px;
+  text-align: left;
+}
+
+.name-game{
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.5em;
+  color: white;
 }
