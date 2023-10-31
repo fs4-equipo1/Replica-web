@@ -3,12 +3,100 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Playstation.es</title>
+    <title>INDEX.HMTL</title>
+    <link rel="stylesheet" href="global.css">
+    <link rel="stylesheet" href="buttons.css">
+    <link rel="stylesheet" href="visualStyles.css">
+    <link rel="stylesheet" href="Typography.css">
+    <link rel="stylesheet" href="psplus.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css">
 </head>
 <body>
     <!-- headbar and navbar -->
     <!-- juegos y productos -->
     <!-- psplus -->
+    <section class="section" style="display: block; height: 100vh; background-image: url(resources/pictures/backgroundpsplus.png);">
+        <h1 class="titulo-general"> Descubre PlayStation Plus</h1>
+        <p class="parrafo-general"> Disfruta de cientos de juegos clásicos, de PS4 o de PS5 y descubre épicas aventuras, indies únicos, los favoritos para jugar en familia y muchos más.</p>
+        <div class="swiper carrusel">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <div
+                class="card-container"
+                style="background-image: url(resources/pictures/primercard.png)"
+              >
+                <h3>PlayStation Plus Premium</h3>
+                <p class="paragraph">
+                  Disfruta de todas las ventajas de las suscripciones Extra y<br />
+                  Essential de PlayStation Plus, las cuales incluyen pruebas de<br />
+                  juegos, streaming en la nube y el catálogo de clásicos.<br />
+                </p>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div
+                class="card-container"
+                style="background-image: url(resources/pictures/segundacard.png)"
+              >
+                <h3>PlayStation Plus Extra</h3>
+                <p class="paragraph">
+                  Además de todas las ventajas del plan PlayStation Plus
+                  Essential,<br />
+                  podrás descargar y jugar a cientos de títulos de PS4 y PS5
+                  desde<br />
+                  el catálogo de juegos.<br />
+                </p>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div
+                class="card-container"
+                style="background-image: url(resources/pictures/tercercard.png)"
+              >
+                <h3>PlayStation Plus Essential</h3>
+                <p class="paragraph">
+                  Además de todas las ventajas del plan PlayStation Plus
+                  Essential,<br />
+                  podrás descargar y jugar a cientos de títulos de PS4 y PS5
+                  desde<br />
+                  el catálogo de juegos.<br />
+                </p>
+              </div>
+            </div>
+          </div>
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-button-next"></div>
+        <div class="swiper-pagination" style="position: unset; bottom: auto;"></div>
+      </div>
+  
+        <div class="button-container">
+          <a href="#" class="button-blue">Descubre PlayStation Plus</a>
+        </div>
+  
+      <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+      <script>
+        const swiper = new Swiper(".swiper", {
+          // slidesPerView: 3,
+          // spaceBetween: 15,
+  
+          direction: "horizontal",
+          loop: true,
+          pagination: {
+            el: ".swiper-pagination",
+            type: "bullets",
+            clickable: true,
+          },
+  
+          navigation: {
+            nextEl: ".swiper-button-next",
+            prevEl: ".swiper-button-prev",
+          },
+          scrollbar: {
+            el: ".swiper-scrollbar",
+          },
+        });
+      </script>
+    </section> 
     <!-- vr -->
     <!-- lanzamientos nuevos y proximos -->
     <!-- este mes en play station -->
