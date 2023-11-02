@@ -1,4 +1,4 @@
-h2 {
+.merchcontainer > .text-container > h2 {
     width: 100%;
 }
 
@@ -23,7 +23,7 @@ h2 {
     gap: 50px;
 }
 
-.text-container {
+.merchcontainer > .text-container {
     margin-right: auto;
     width: 50%;    
 }
@@ -34,7 +34,7 @@ h2 {
 
 }
 
-.container .text-container:first-child {
+.merchcontainer > .text-container:first-child {
   margin-right:auto;
 }
 
@@ -71,7 +71,7 @@ h2 {
     justify-content: center;
 }
 
-.imageblock{
+.product > .imageblock{
 
     width: 90%;
     margin: 15px;
@@ -84,14 +84,14 @@ max-width:100%;
 max-height:100%;
 }
 
-.button-container > .button-red{
+.product > .button-container > .button-red{
     display: block;
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 15px;
 }
 
-.button-container > .button-white{
+.merchcontainer > .button-container > .button-white{
     margin-top: 20px;
     margin-bottom: 50px;
 }
@@ -109,7 +109,7 @@ max-height:100%;
         flex-wrap: wrap;
         
     }
-    .text-container{
+    .merchcontainer > .text-container{
         width: 100%;
     }
 
