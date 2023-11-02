@@ -99,6 +99,7 @@ max-height:100%;
 .ps-product > .button-container, .merchcontainer > .button-container {
     padding: 10px;
     margin: 0;
+    margin-bottom: 10px;
 }
 
 @media only screen and (max-width:1210px) {
@@ -117,9 +118,18 @@ max-height:100%;
         width: 100%;
     }
 
-  
+    .ps-product:nth-child(4) {
+        margin-right: auto;
+        margin-left: auto;
+    }
 }
 
+@media only screen and (max-width:874px) {
+    .ps-product:nth-child(4) {
+        margin-right: inherit;
+        margin-left: inherit;
+    }  
+}
 
 @media only screen and (max-width: 582px) {
     .products-box{
