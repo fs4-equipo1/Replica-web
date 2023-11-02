@@ -19,7 +19,7 @@
     gap: 50px;
 }
 
-.merchcontainer > .text-container {
+.merchcontainer > .text-container-merch {
     margin-right: auto;
     width: 50%;    
 }
@@ -30,7 +30,7 @@
 
 }
 
-.merchcontainer > .text-container:first-child {
+.merchcontainer > .text-container-merch:first-child {
   margin-right:auto;
 }
 
@@ -46,7 +46,7 @@
     justify-content: space-between;
 }
 
-.product {
+.ps-product {
     width: 22%;
     min-height: 410px;
     min-width: 23ch;
@@ -67,7 +67,7 @@
     justify-content: center;
 }
 
-.product > .imageblock{
+.ps-product > .imageblock{
 
     width: 90%;
     margin: 15px;
@@ -80,7 +80,7 @@ max-width:100%;
 max-height:100%;
 }
 
-.product > .button-container > .button-red{
+.ps-product > .button-container > .button-red{
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -92,12 +92,17 @@ max-height:100%;
     margin-bottom: 50px;
 }
 
-.merchcontainer > .text-container > h2 {
+.merchcontainer > .text-container-merch > h2 {
     width: 100%;
 }
 
+.ps-product > .button-container, .merchcontainer > .button-container {
+    padding: 10px;
+    margin: 0;
+}
+
 @media only screen and (max-width:1210px) {
-    .product {
+    .ps-product {
         min-width: 21ch;
     }
     
@@ -108,7 +113,7 @@ max-height:100%;
         flex-wrap: wrap;
         
     }
-    .merchcontainer > .text-container{
+    .merchcontainer > .text-container-merch{
         width: 100%;
     }
 
@@ -120,7 +125,7 @@ max-height:100%;
     .products-box{
         flex-direction: column;
     }
-    .product {
+    .ps-product {
         min-width: 25ch;
     }
 }
