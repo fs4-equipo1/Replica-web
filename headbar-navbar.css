@@ -4,7 +4,7 @@
     background-color: black;
 
     width: 100vw;
-    height: 7vh;
+    height: 5vh;
 
 }
 
@@ -29,18 +29,22 @@ nav{
 
 .logo{
 
-    padding-top: 7px;
-    padding-left: 90vw;
+    display: flex;
+    align-items: center;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 94vw;
 
 }
 
 .select-button{
 
+    position: relative; /* ws3 */
+    display: inline-block; /* ws3 */
     border: none;
     color: black;
     font-weight: bold;
     background-color: white;
-
 
 }
 
@@ -48,6 +52,27 @@ nav{
 
     color: #0068bd;
 }
+
+.dropdown-content{
+
+    display: none;
+    position: absolute;
+    background-color: white;
+    color: #0068bd;
+    width: 100vw;
+    height: auto;
+    padding-top: 25px;
+
+}
+
+.dropdown{
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+} /* ws3*/
 
 body{
     margin: 0;
@@ -94,37 +119,30 @@ body{
 
 a{
     text-decoration: none;
+    color: black;
 }
 
-.dropdown{
+a:hover{
 
-    display: none;
-    background-color: white;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    gap: 2px;
-
-    background: none repeat scroll 0 0 #EEEEEE;
-    width:100wh;
-    height: 0;
-    overflow:hidden;
-    left: 0;
-    line-height: 20px;
-    position: absolute;
-    top: 30px;
+    color: #0068bd;
 }
 
 .add-flex{
 
     display: flex;
     flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
 }
 
 .nav-list{
 
     display: flex;
-    font-weight: bold;
+    /*font-weight: bold;*/
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
 }
 
 
@@ -134,11 +152,16 @@ a{
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    padding: 25px;
+    border-radius: 5px;
+    border: 1px solid white;
+    height: 100px;
+    width: 100px;
 }
 
-.select-button::before > .dropdown{
+.nav-buttons:hover{
 
-    display:block;
-    left:0px;
-    height:100px;
+    /*box-shadow: 1px 1px 1px 1px grey;*/
+    border: 1px solid grey;
 }
+
