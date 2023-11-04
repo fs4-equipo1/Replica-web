@@ -1,0 +1,170 @@
+
+.header{
+
+    background-color: black;
+
+    width: 100vw;
+    height: 5vh;
+
+}
+
+nav{
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
+    position: sticky;
+
+    align-items: center;
+
+}
+
+.izquierda-nav{
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+    gap: 20px;
+
+}
+
+.logo{
+
+    display: flex;
+    align-items: center;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 94vw;
+
+}
+
+.select-button{
+
+    position: relative; /* ws3 */
+    display: inline-block; /* ws3 */
+    border: none;
+    color: black;
+    font-weight: bold;
+    background-color: white;
+
+}
+
+.select-button:hover{
+
+    color: #0068bd;
+}
+
+.dropdown-content{
+
+    display: none;
+    position: absolute;
+    background-color: white;
+    color: #0068bd;
+    width: 100vw;
+    height: auto;
+    padding-top: 25px;
+
+}
+
+.dropdown{
+    position: relative;
+    display: block;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+} /* ws3*/
+
+body{
+    margin: 0;
+}
+
+.buttons{
+
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+
+    align-items: center;
+
+}
+
+.button-primary{
+
+    margin: 5px;
+    border-radius: 15px;
+    color: white;
+    background-color: #0068bd;
+    border-color: transparent;
+
+}
+
+.search{
+
+    margin: 5px;
+    border-radius: 5px;
+    border-color: transparent;
+    background-color: transparent;
+}
+
+.search:hover{
+
+    color: #0068bd;
+}
+
+.text-links{
+
+    color: black;
+    font-weight: bold;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+a:hover{
+
+    color: #0068bd;
+}
+
+.add-flex{
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.nav-list{
+
+    display: flex;
+    /*font-weight: bold;*/
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+
+
+.nav-buttons{
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 25px;
+    border-radius: 5px;
+    border: 1px solid white;
+    height: 100px;
+    width: 100px;
+}
+
+.nav-buttons:hover{
+
+    /*box-shadow: 1px 1px 1px 1px grey;*/
+    box-shadow: 0px 4px 10px 0px rgba(0,0,0,0.2);
+}
+
