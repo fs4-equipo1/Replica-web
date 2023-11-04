@@ -1,9 +1,9 @@
 
-body{
+/* body{
 
     margin: 0;
     background-color: #00439C;
-}
+} */
 
 footer{
 
@@ -14,13 +14,18 @@ footer{
     background-color: #00439C;
 }
 
-li{
+.footer-list > li{
     list-style: none;
     padding: auto;
 
 }
 
-a{
+.left > a{
+    color: white;
+    text-decoration: none;
+}
+
+.right > a{
     color: white;
     text-decoration: none;
 }
