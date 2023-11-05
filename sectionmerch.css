@@ -1,8 +1,6 @@
 .section-merch {
     height: max-content;
     width: 100%;
-    padding-top: 10px;
-    padding-bottom: 10px;
     background-size: cover;
     background-position: center;
     color: white;
@@ -12,7 +10,8 @@
 }
 
 .merchcontainer {
-    width: 70%;
+    margin-top:40px;
+    width: 75%;
     align-items: center;
     display: flex;
     flex-direction: column;
@@ -61,6 +60,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    text-align: center;
 }
 
 .imageblock{
@@ -111,18 +111,6 @@ max-height:100%;
     .merchcontainer > .text-container-merch{
         width: 100%;
     }
-
-    .ps-product:nth-child(4) {
-        margin-right: auto;
-        margin-left: auto;
-    }
-}
-
-@media only screen and (max-width:874px) {
-    .ps-product:nth-child(4) {
-        margin-right: inherit;
-        margin-left: inherit;
-    }  
 }
 
 @media only screen and (max-width: 582px) {
