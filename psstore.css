@@ -7,7 +7,7 @@
 }
 
 .store-container {
-    height: 350px;
+    height: 365px;
     width: 75%;
     display: flex;
     align-items: center;
@@ -19,6 +19,7 @@
 }
 
 .left-store {
+    height: 100%;
     width: 30%;
     display: flex;
     max-height: 100%;
@@ -29,12 +30,12 @@
 }
 
 .title-store {
-    font-size: 30px;
+    font-size: 32px;
     margin: 0;
 }
 
 .text-store {
-    font-size: 16px;
+    font-size: 18px;
     margin: 0;
     opacity: 0.8;
 }
@@ -47,7 +48,7 @@
     border-radius: 8px;
     height: 100%;
     width: 100%;
-    max-width: 600px;
+    max-width: 650px;
     min-width: 420px;
     display: flex;
     overflow: hidden;
@@ -64,7 +65,7 @@
     margin-left: 0;
 }
 
-@media only screen and (max-width:1080px) {
+@media only screen and (max-width:1212px) {
     .store-container {
         height: max-content;
     }
