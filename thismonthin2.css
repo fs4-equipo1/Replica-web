@@ -1,40 +1,135 @@
 .thismonth {
-    display: flex;
-    align-items: center; /* Vertically center the content if needed */
+  display: flex;
+  align-items: center; /* Vertically center the content if needed */
 }
 
 .thismonthcontainer {
-    position: relative;
+  position: relative;
 }
 
+
 .thismonthpurple {
-    background-color: #1E1E3F;
-    width: 100vw;
-    height: 40vh;
-    position: absolute;
-    top: 79%;
+  background-color: #1e1e3f;
+  width: 100vw;
+  height: 40vh;
+  position: absolute;
+  top: 79%;
 }
 
 .thismonthinimg {
-    width: 100vw;
-    height: 60vh;
-    margin: 0;
+  width: 100vw;
+  height: 60vh;
+  margin: 0;
 }
 
 .thismonthintop {
-    position: absolute; /* You can use relative positioning here */
-    top: 12%;
-    left: 12%;
-    transform: translate(-50%, -50%);
-    color: white;
-    font-size: 42px;
+  position: absolute;
+  top: 20%;
+  left: 12%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-size: 42px;
 }
 
 .thismonthintop2 {
-    position: absolute; 
-    top: 25%;
-    left: 24%;
-    transform: translate(-50%, -50%);
-    color:#dcc8ea;
-    font-size: 24px;
+  position: absolute;
+  top: 38%;
+  left: 24%;
+  transform: translate(-50%, -50%);
+  color: #dcc8ea;
+  font-size: 24px;
 }
+
+
+
+.thismonthinbutton {
+  position: absolute;
+  top: 50%;
+  left: 6%;
+  display: inline-block;
+  padding: 0.5em 1em;
+  background: white;
+  color: black;
+  border-radius: 2em;
+  border: none;
+  outline: 2px solid white;
+}
+
+.thismonthinbutton:hover {
+    outline-offset: 3px;
+  }
+
+.thismonthincard img {
+    border-radius: 10%;
+  }
+
+.thismonthincard:hover {
+    transform: translate(-50%, -50%) scale(1.01);
+}
+
+.thismonthincard2:hover {
+    transform: translate(-50%, -50%) scale(1.01);
+}
+
+.thismonthincard3:hover {
+    transform: translate(-50%, -50%) scale(1.01);
+}
+
+
+  .thismonthincard2 img {
+    border-radius: 10%;
+}
+
+.thismonthincard3 img {
+    border-radius: 10%;
+}
+
+.thismonthincard {
+    position: absolute;
+    top: 100%;
+    left: 20%;
+    transform: translate(-50%, -50%);
+    width: 22vw; 
+    padding: 2px;
+  }
+
+  .thismonthincard2 {
+    position: absolute;
+    top: 100%;
+    left: 48%;
+    transform: translate(-50%, -50%);
+    width: 22vw; 
+    padding: 2px;
+  }
+
+  
+  .thismonthincard3 {
+    position: absolute;
+    top: 100%;
+    left: 76%;
+    transform: translate(-50%, -50%);
+    width: 22vw; 
+    padding: 2px;
+  }
+
+
+.thismonthincardimage {
+    width: 100%;
+    height: auto;
+  }
+
+.thismonthincardtext {
+    color: white;
+    font-size: 28px;
+    margin-top: 10px;
+    text-align: center;
+  }
+
+  .invisibletrick {
+ color : #1e1e3f;
+  }
+.cardcontainer {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+  }
