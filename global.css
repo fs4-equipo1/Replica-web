@@ -2,6 +2,7 @@ body,
 html {
   height: 100%;
   margin: 0;
+  background-color: red;
 }
 
 /* globalizado */
@@ -9,8 +10,8 @@ html {
   min-height: 25vh;
   width: 100%;
 
-  margin-top: 50px;
-  margin-bottom: 50px;
+  margin-top: 0px;
+  margin-bottom: 0px;
 
   background-color: white;
   background-size: cover;

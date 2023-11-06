@@ -24,7 +24,7 @@
     </section>
     <!-- navbar -->
     <section class="section" style="min-height: unset; margin: unset; position: relative;">
-      <nav>
+    <nav class="navbar">
       <div class="izquierda-nav">
           <span id="BotonPS">
                 <svg aria-hidden="true" focusable="false" class="shared-nav-ps-logo" width="50px" height="50px" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 50 50">
@@ -74,13 +74,13 @@
                               </a>
                           </div>
                       </div>
-                      <hr>
+                      
                       <div>
                           <ul class="nav-list">
-                              <li><a href="#">PlayStation Indies</a></li>
-                              <li><a href="#">Juegos para PS4 en PS5</a></li>
-                              <li><a href="#">Gratuitos</a></li>
-                              <li><a href="#">Ofertas y descuentos</a></li>
+                              <li><a class="navbarA" href="#">PlayStation Indies</a></li>
+                              <li><a class="navbarA" href="#">Juegos para PS4 en PS5</a></li>
+                              <li><a class="navbarA" href="#">Gratuitos</a></li>
+                              <li><a class="navbarA" href="#">Ofertas y descuentos</a></li>
                           </ul>
                       </div>
                   </section>
@@ -170,11 +170,11 @@
                               </a>
                           </div>
                       </div>
-                      <hr>
+                      
                       <div>
                           <ul class="nav-list">
-                              <li><a href="#">Entretenimiento en PS5</a></li>
-                              <li><a href="#">Entretenimiento en PS4</a></li>
+                              <li><a class="navbarA" href="#">Entretenimiento en PS5</a></li>
+                              <li><a class="navbarA" href="#">Entretenimiento en PS4</a></li>
                           </ul>
                       </div>
                   </section>
@@ -214,14 +214,14 @@
                               </a>
                           </div>
                       </div>
-                      <hr>
+                      
                       <div>
                           <ul class="nav-list">
-                              <li><a href="#">Dispositivo para Uso a distancia PlayStation Portal</a></li>
-                              <li><a href="#">Dualsense Edge</a></li>
-                              <li><a href="#">Mando Access</a></li>
-                              <li><a href="#">Cubiertas de consola PS5</a></li>
-                              <li><a href="#">Mando a distancia multimedia</a></li>
+                              <li><a class="navbarA" href="#">Dispositivo para Uso a distancia PlayStation Portal</a></li>
+                              <li><a class="navbarA" href="#">Dualsense Edge</a></li>
+                              <li><a class="navbarA" href="#">Mando Access</a></li>
+                              <li><a class="navbarA" href="#">Cubiertas de consola PS5</a></li>
+                              <li><a class="navbarA" href="#">Mando a distancia multimedia</a></li>
                           </ul>
                       </div>
                   </section>
@@ -243,13 +243,13 @@
                               </a>
                           </div>
                       </div>
-                      <hr>
+                      
                       <div>
                           <ul class="nav-list">
-                              <li><a href="#">Compromiso PlayStation</a></li>
-                              <li><a href="#">Centro de competición</a></li>
-                              <li><a href="#">Accesibilidad</a></li>
-                              <li><a href="#">Privacidad y Seguridad</a></li>
+                              <li><a class="navbarA" href="#">Compromiso PlayStation</a></li>
+                              <li><a class="navbarA" href="#">Centro de competición</a></li>
+                              <li><a class="navbarA" href="#">Accesibilidad</a></li>
+                              <li><a class="navbarA" href="#">Privacidad y Seguridad</a></li>
                           </ul>
                       </div>
                   </section>
@@ -289,14 +289,14 @@
                               </a>
                           </div>
                       </div>
-                      <hr>
+                      
                       <div>
                           <ul class="nav-list">
-                              <li><a href="#">Compra juegos de PS5</a></li>
-                              <li><a href="#">Compra juegos de PS4</a></li>
-                              <li><a href="#">Compra PlayStation Plus</a></li>
-                              <li><a href="#">Compra PS4</a></li>
-                              <li><a href="#">Compra PS VR</a></li>
+                              <li><a class="navbarA" href="#">Compra juegos de PS5</a></li>
+                              <li><a class="navbarA" href="#">Compra juegos de PS4</a></li>
+                              <li><a class="navbarA" href="#">Compra PlayStation Plus</a></li>
+                              <li><a class="navbarA" href="#">Compra PS4</a></li>
+                              <li><a class="navbarA" href="#">Compra PS VR</a></li>
                           </ul>
                       </div>
                   </section>
@@ -322,7 +322,7 @@
           </span>
       </div>
   
-      <div class="buttons">
+      <div class="login">
           <button class="button-primary"> iniciar sesión </button>
       
           <button class="search">
@@ -333,12 +333,12 @@
             </svg>
           </button>
       </div>
-      </nav>
+    </nav>
     </section>
     <!-- juegos y productos -->
     <!-- psplus -->
     <section class="section" style="display: block; height: 80vh; background-image: url(resources/pictures/backgroundpsplus.png);">
-        <h1 class="titulo-general"> Descubre PlayStation Plus</h1>
+        <h1 class="txtTitleLarge" style="text-align: start;"> Descubre PlayStation Plus</h1>
         <p class="txtMedium"> Disfruta de cientos de juegos clásicos, de PS4 o de PS5 y descubre épicas aventuras, indies únicos, los favoritos para jugar en familia y muchos más.</p>
         <div class="swiper carrusel">
           <div class="swiper-wrapper">
@@ -420,6 +420,38 @@
       </script>
     </section> 
     <!-- vr -->
+    <section class="section" style="height: 75vh; color: white; background-image: url(resources/pictures/realidadvirtual.png);">
+        <div class="container">
+          <div class="text-container-left">
+            <h2>Experimenta una nueva realidad</h2>
+            <p>
+              Súmate a mundos épicos que van más allá de la realidad con el
+              innovador casco PlayStation VR2 y el mando PlayStation VR2 Sense.
+            </p>
+            <div class="button-container">
+              <a href="#" class="button-white">Obtener más información</a>
+              <a href="#" class="button-red">Comprar Ahora</a>
+            </div>
+          </div>
+        </div>
+      </section>
+  
+      <section class="section" style="height: 75vh; color: black;">
+        <div class="container">
+          <div class="text-container-left">
+            <h2>Experimenta una nueva realidad</h2>
+            <p>
+              Súmate a mundos épicos que van más allá de la realidad con el
+              innovador casco PlayStation VR2 y el mando PlayStation VR2 Sense.
+            </p>
+            <div class="button-container">
+              <a href="#" class="button-blue">Agregar al carrito</a>
+              <a href="#" class="button-red">Comprar Ahora</a>
+            </div>
+          </div>
+          <div class="image"></div>
+        </div>
+      </section>
     <!-- lanzamientos nuevos y proximos -->
     <!-- este mes en play station -->
     <!-- a que vas a jugar -->

@@ -10,6 +10,9 @@
   font-weight: bold;
   border-radius: 25px;
   transition: border-color 0.3s;
+
+  text-align: center;
+  justify-content: center;
 }
 .button-red {
   display: inline-block;
@@ -20,6 +23,9 @@
   font-weight: bold;
   border-radius: 25px;
   transition: border-color 0.3s;
+
+  text-align: center;
+  justify-content: center;
 }
 
 .button-blue {
@@ -31,6 +37,9 @@
   font-weight: bold;
   border-radius: 25px;
   transition: border-color 0.3s;
+
+  text-align: center;
+  justify-content: center;
 }
 
 .button-blue:hover {
@@ -50,7 +59,7 @@
 /* [FIN] */
 /* ===== */
 
-/* [BOTONES CARROUSELES LEFT Y RIGHT] */
+/* [BOTONES CARROUSELES LEFT Y RIGHT] (en desuso) */
 /* ramiro */
 
 .buttonright {

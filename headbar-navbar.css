@@ -19,12 +19,12 @@
     
 }
 
-nav{
+.navbar{
 
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-
+    width: 100%;
     align-items: center;
 
 }
@@ -34,14 +34,22 @@ nav{
     display: flex;
     flex-direction: row;
     align-items: center;
+    height: 100%;
 
     gap: 20px;
 
 }
 
-.select-button{
+.login{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    border: 1px solid white;
+}
 
-    position: relative; /* ws3 */
+.select-button{
     display: inline-block; /* ws3 */
     border: none;
     color: black;
@@ -60,18 +68,20 @@ nav{
     display: none;
     position: absolute;
     left: 0;
-    right: 0;
-    margin-top: 10px;
+    top: 54px;
     background-color: white;
     color: #0068bd;
     width: 100%;
     height: auto;
-    padding-top: 25px;
     z-index: 10;
 }
 
 .dropdown{
     display: block;
+    height: 54px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .dropdown:hover .dropdown-content {
@@ -79,18 +89,13 @@ nav{
     flex-direction: column;
 }
 
-body{
-    margin: 0;
+.dropdown-content:hover{
+    display: flex; 
+    flex-direction: column;
 }
 
-.buttons{
-
-    display: flex;
-    flex-wrap: nowrap;
-    flex-direction: row;
-
-    align-items: center;
-
+body{
+    margin: 0;
 }
 
 .button-primary{
@@ -120,14 +125,15 @@ body{
 
     color: black;
     font-weight: bold;
+    text-decoration: none;
 }
 
-a{
+.navbarA{
     text-decoration: none;
     color: black;
 }
 
-a:hover{
+.navbarA:hover{
 
     color: #0068bd;
 }
@@ -139,6 +145,8 @@ a:hover{
     justify-content: center;
     align-items: center;
     gap: 20px;
+    padding: 25px 0px;
+    border-bottom: 0.5px solid gray;
 }
 
 .nav-list{
@@ -157,11 +165,10 @@ a:hover{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: 25px;
     border-radius: 5px;
     border: 1px solid white;
-    height: 100px;
-    width: 100px;
+    padding: 5px 15px;
+    text-decoration: none;
 }
 
 .nav-buttons:hover{
