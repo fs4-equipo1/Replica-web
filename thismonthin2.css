@@ -1,0 +1,40 @@
+.thismonth {
+    display: flex;
+    align-items: center; /* Vertically center the content if needed */
+}
+
+.thismonthcontainer {
+    position: relative;
+}
+
+.thismonthpurple {
+    background-color: #1E1E3F;
+    width: 100vw;
+    height: 40vh;
+    position: absolute;
+    top: 79%;
+}
+
+.thismonthinimg {
+    width: 100vw;
+    height: 60vh;
+    margin: 0;
+}
+
+.thismonthintop {
+    position: absolute; /* You can use relative positioning here */
+    top: 12%;
+    left: 12%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 42px;
+}
+
+.thismonthintop2 {
+    position: absolute; 
+    top: 25%;
+    left: 24%;
+    transform: translate(-50%, -50%);
+    color:#dcc8ea;
+    font-size: 24px;
+}
