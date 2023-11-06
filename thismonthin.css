@@ -1,162 +1,22 @@
-a:active {
-    text-decoration: none;
-}
-.thismonthinimg {
-    width: 100vw;
-    height: 60vh;
+.thismonth {
+    display: flex;
+    align-items: center; /* Vertically center the content if needed */
 }
 
 .thismonthcontainer {
-    position: absolute;
-    display: inline-block;
-    text-align: center;
-}
-
-.thismonthtoptext {
-    position: absolute;
-    top: 10px;
-    left: 10px;
-}
-
-.thismonthintopsubtext {
-    font-size: 38px;
-    color: white;
-    position: absolute;
-    top: 15%;
-    left: 8%;
-}
-
-.thismonthintopsubtext2 {
-    font-size: 38px;
-    color: white;
-    position: absolute;
-    top: 23%;
-    left: 8%;
-}
-
-.thismonthintopsubtext3 {
-    font-size: 24px;
-    color: white;
-    position: absolute;
-    top: 40%;
-    left: 8%;
-}
-
-.thismonthintopsubtext4 {
-    font-size: 24px;
-    color: white;
-    position: absolute;
-    top: 44%;
-    left: 8%;
-}
-
-.thismonthintopsubtext5 {
-    font-size: 30px;
-    color: white;
-    position: absolute;
-    top: 76%;
-    left: 10%;
-}
-
-.thismonthintopsubtext6 {
-    font-size: 30px;
-    color: white;
-    position: absolute;
-    top: 80%;
-    left: 10%;
-}
-
-.thismonthintopsubtext7 {
-    font-size: 30px;
-    color: white;
-    position: absolute;
-    top: 84%;
-    left: 20%;
-}
-
-.thismonthintopsubtext8 {
-    font-size: 30px;
-    color: white;
-    position: absolute;
-    top: 76%;
-    left: 38%;
-}
-
-.thismonthintopsubtext9 {
-    font-size: 30px;
-    color: white;
-    position: absolute;
-    top: 80%;
-    left: 46%;
-}
-
-.thismonthintopsubtext10 {
-    font-size: 30px;
-    color: white;
-    position: absolute;
-    top: 76%;
-    left: 65%;
-}
-
-.thismonthintopsubtext11 {
-    font-size: 30px;
-    color: white;
-    position: absolute;
-    top: 80%;
-    left: 71%;
-}
-
-
-.thismonthinbutton  {
-    font-size: 20px;
-    position: absolute;
-    top: 55%;
-    left: 8%;
-    padding: 0.5em 1em;
-    background: white;
-    border-radius: 2em;
-    border: none;
-}
-
-.thismonthinbutton:hover {
-    outline: 2px solid white;
-    outline-offset: 3px;
+    position: relative;
 }
 
 .thismonthpurple {
-    position: absolute;
     background-color: #1E1E3F;
-    width: 100vw;
+    width: 100vw; /* Adjust the width as needed */
     height: 40vh;
-    top: 90%;
-}
-
-.thismonthincard1 img {
     position: absolute;
-    top: 45%;
-    left: 10%;
+    top: 75%;
 }
 
-.thismonthincard2 img {
-    position: absolute;
-    top: 45%;
-    left: 38%;
-}
-
-.thismonthincard3 img {
-    position: absolute;
-    top: 45%;
-    left: 65%;
-}
-
-.thismonthincards img {
-    position: absolute;
-    border-radius: 8%;
-    height: 27vh;
-    width: 23vw;
-}
-
-.thismonthincards img:hover {
-    transform: scale(1.01);
-    box-shadow: 11px 11 11px rgba(33,33,33,.2); 
+.thismonthinimg {
+    width: 100vw; /* Adjust the width as needed */
+    height: 60vh;
+    margin: 0;
 }
