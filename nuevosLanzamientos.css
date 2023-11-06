@@ -87,16 +87,25 @@ section{
   color: #207fb9 ;
 }
 
-/*.games-container{
-  display: flex;
-  flex-wrap: wrap;
-  flex-direction: row;
-  align-items: center;
-  justify-content: center;
-  gap: 5px;
-}*/
 
-.games-container{
+
+#radio1:checked ~ .news-container{
+  display: block;
+}
+
+#radio2:checked ~ .prox-container{
+  display: block;
+}
+
+
+.news-container{
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  gap: 7px;
+  margin: 20px;
+}
+
+.prox-container{
   display: grid;
   grid-template-columns: repeat(6, 1fr);
   gap: 7px;
@@ -130,8 +139,11 @@ p{
 }
 
 .name-game{
-  font-size: 14px;
+  font-size: 15px;
   font-weight: 400;
   line-height: 1.5em;
   color: white;
 }
+
+
+funcion onClick para poder cambiar de juegos a traves del boton pildora
