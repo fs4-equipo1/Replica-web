@@ -1,0 +1,132 @@
+.section-merch {
+    height: max-content;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.merchcontainer {
+    margin-top:40px;
+    width: 75%;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+
+.merchcontainer > .text-container-merch {
+    margin-right: auto;
+    width: 50%;    
+}
+
+.logo-merch {
+    width: 90px;
+    height: 80px;
+
+}
+
+.merchcontainer > .text-container-merch:first-child {
+  margin-right:auto;
+}
+
+
+.products-box {
+    width: 100%;
+    margin-top: 30px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    gap: 20px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.product {
+    width: 22%;
+    height: 420px;
+    min-width: 23ch;
+    box-shadow: 0 5px 9px 0 rgba(20, 20, 20, 0.336);
+    background-color: rgba(0, 0, 0, 0.514);
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.text-product {
+    padding: 8px;
+    height: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.imageblock{
+
+    width: 90%;
+    margin: 15px;
+}
+
+img {
+max-width:100%;
+max-height:100%;
+}
+
+.ps-product > .button-container > .button-red{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 15px;
+}
+
+.merchcontainer > .button-container > .button-white{
+    margin-top: 10px;
+    margin-bottom: 50px;
+}
+
+.merchcontainer > .text-container-merch > h2 {
+    width: 100%;
+}
+
+.ps-product > .button-container, .merchcontainer > .button-container {
+    padding: 10px;
+    margin: 0;
+    margin-bottom: 10px;
+}
+
+@media only screen and (max-width:1210px) {
+    .ps-product {
+        min-width: 21ch;
+    }      
+}
+
+@media only screen and (min-width:1500px) {
+    .product {
+        height: 100%;
+        gap: 20px;
+    }
+}
+
+@media only screen and (max-width:950px) {
+    .products-box {
+        flex-wrap: wrap;
+        
+    }
+    .merchcontainer > .text-container-merch{
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width: 582px) {
+    .products-box{
+        flex-direction: column;
+    }
+    .ps-product {
+        min-width: 25ch;
+    }
+}

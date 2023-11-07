@@ -1,0 +1,108 @@
+body,
+html {
+  height: 100%;
+  margin: 0;
+  background-color: white;
+}
+
+/* globalizado */
+.section {
+  min-height: 25vh;
+  width: 100%;
+
+  margin-top: 0px;
+  margin-bottom: 0px;
+
+  background-color: white;
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+
+  display: flex;
+  align-items: center;
+}
+
+/* por globalizar */
+.container {
+  width: 100%;
+  height: 100%;
+
+  margin: auto;
+
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: start;
+  gap: 50px;
+}
+
+/* por globalizar */
+.image {
+  width: calc(60% - 100px);
+  height: 100%;
+  background-color: red;
+}
+
+.text-container-left {
+  width: 40%;
+  padding-left: 50px;
+  display: flex;
+  flex-direction: column;
+}
+
+.text-container-center{
+  max-width: 620px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+
+/* por globalizar */
+.button-container {
+  display: flex;
+  justify-content: center;
+  align-items: start;
+  gap: 20px;
+  margin: 10px;
+}
+
+/* no global */
+.button-container-RRSS{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+/* globalizado */
+.divCarrousel{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: baseline;
+  gap: 10px;
+}
+
+/* no global */
+.divCarrouselCards{
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+/* typography */
+
+h2 {
+  font-size: 2em;
+  margin-bottom: 10px;
+  width: 400px;
+}
+
+p {
+  font-size: 1.2em;
+  margin-bottom: 20px;
+}
