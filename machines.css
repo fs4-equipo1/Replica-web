@@ -1,12 +1,4 @@
-*{
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-    object-fit: contain;
-}
-
-.container{
-    max-width: 100vw;
+.containerMachines{
     height: 100vh;
     position: relative;
     display: flex;
@@ -43,15 +35,14 @@
     overflow: hidden;
 }
 
-img{
-    width: 100%;
-    height: 100%;
+.imgChange{
+    width: auto;
+    height: auto;
     position: relative;
     object-fit: contain;
 }
 
-.images{
-    max-width: 100vw;
+.imagesMachines{
     height: 80vh;
     position: relative;
     display: flex;
