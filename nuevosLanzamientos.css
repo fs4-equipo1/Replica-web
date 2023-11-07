@@ -48,7 +48,6 @@ section{
   flex-wrap: wrap;
   border-radius: 25px;
   background-color:  #141c1c;
-  /*box-sizing: content-box;*/
   box-shadow: 0 0 0px 1px rgba(0, 0, 0, 0.06);
   width: 300px;
   font-size: 14px;
