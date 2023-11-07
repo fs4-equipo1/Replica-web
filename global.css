@@ -58,6 +58,12 @@ html {
   text-align: center;
 }
 
+@media (max-width: 360px) {
+  .text-container-left{
+    padding-left: 0px;
+  }
+}
+
 /* por globalizar */
 .button-container {
   display: flex;
@@ -68,17 +74,20 @@ html {
   margin: 10px;
 }
 
-@media (max-width: 425px) {
+
+/* NO SE QUE PUñETAS ES ESTO */
+/* @media (max-width: 425px) {
   .button-container{
     flex-direction: column;
   }  
-}
+} */
 
 /* no global */
 .button-container-RRSS{
   display: flex;
   flex-direction: row;
   justify-content: center;
+  flex-wrap: wrap;
 }
 
 /* globalizado */

@@ -89,24 +89,10 @@
 .thismonthincard {
     display: flex;
     flex-direction: column;
-    width: 22vw; 
+    width: 250px; 
     padding: 2px;
   }
 
-  .thismonthincard2 {
-    display: flex;
-    flex-direction: column;
-    width: 22vw; 
-    padding: 2px;
-  }
-
-  
-  .thismonthincard3 {
-    display: flex;
-    flex-direction: column;
-    width: 22vw; 
-    padding: 2px;
-  }
 
 
 .thismonthincardimage {
@@ -129,5 +115,6 @@
     display: flex;
     justify-content: space-between;
     flex-direction: row;
+    flex-wrap: wrap;
     padding: 50px;
   }
