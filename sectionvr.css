@@ -1,0 +1,36 @@
+@media (max-width: 360px) {
+  .section {
+    padding: 20px; 
+    text-align: center; 
+  }
+
+  .container {
+
+    align-items: center; 
+    justify-content: center;
+  }
+
+  .button-container {
+    flex-direction: column; 
+    gap: 10px; 
+    align-items: center;
+  }
+
+  .button-white,
+  .button-red,
+  .button-blue {
+    padding: 10px 20px;
+    font-size: 16px; 
+    white-space: nowrap; 
+  }
+
+  .image {
+    display: block; 
+    margin: 10px 0; 
+  }
+
+  .text-container-left {
+    text-align: center;
+    width: 380px;
+  }
+}

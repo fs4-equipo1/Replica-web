@@ -14,6 +14,7 @@
     <link rel="stylesheet" href="headbar-navbar.css">
     <link rel="stylesheet" href="sectionmerch.css">
     <link rel="stylesheet" href="footer.css">
+    <link rel="stylesheet" href="sectionvr.css">
 </head>
 <body>
     <!-- headbar -->
@@ -338,8 +339,8 @@
     </section>
     <!-- juegos y productos -->
     <!-- psplus -->
-    <section class="section" style="display: block; height: 80vh; background-image: url(resources/pictures/backgroundpsplus.png);">
-        <h1 class="txtTitleLarger" style="text-align: center; justify-content: center;"> Descubre PlayStation Plus</h1>
+    <section class="section" style="display: block; height: 80vh; background-image: url(resources/pictures/backgroundpsplus.png); padding-bottom: 10px;">
+        <h1 class="txtTitleLarger" style="text-align: center; justify-content: center; margin: 0px;"> Descubre PlayStation Plus</h1>
         <p class="txtMedium" style="text-align: center; justify-content: center;"> Disfruta de cientos de juegos clásicos, de PS4 o de PS5 y descubre épicas aventuras, indies únicos, los favoritos para jugar en familia y muchos más.</p>
         <div class="swiper carrusel">
           <div class="swiper-wrapper">
@@ -436,43 +437,22 @@
           </div>
         </div>
       </section>
-  
-      <section class="section" style="height: 75vh; color: black;">
-        <div class="container">
-          <div class="text-container-left">
-            <h2>Experimenta una nueva realidad</h2>
-            <p>
-              Súmate a mundos épicos que van más allá de la realidad con el
-              innovador casco PlayStation VR2 y el mando PlayStation VR2 Sense.
-            </p>
-            <div class="button-container">
-              <a href="#" class="button-blue">Agregar al carrito</a>
-              <a href="#" class="button-red">Comprar Ahora</a>
-            </div>
-          </div>
-          <div class="image"></div>
-        </div>
-      </section>
     <!-- lanzamientos nuevos y proximos -->
     <!-- este mes en play station -->
     <section class="thismontin">
         <div class="thismonthcontainer">
-          <img
-            class="thismonthinimg"
-            src="images/TMOP-sep-homepage-background-desktop-02-29aug23.webp"
-          />
-          <div class="thismonthpurple"></div>
+        <div class="backgroundThisMonth" style="z-index: -2;">
+            <img class="thismonthinimg" src="images/TMOP-sep-homepage-background-desktop-02-29aug23.webp"/>
+            <div class="thismonthpurple"></div>
+        </div>
           <div class="thismonthintop">Este mes <br />en playstation</div>
           <div class="thismonthintop2">
             Echa un vistazo a los mejores lanzamientos de este mes junto a
             artículos<br />
             especializados, guías y más
           </div>
-          <div class="thismonthinbutton">
-            <a  style="text-decoration: none; color: black;"
-              href="https://www.playstation.com/es-es/editorial/this-month-on-playstation/"
-              ><b>Obtén más información</b></a
-            >
+          <div class="button-container" style="justify-content: start;">
+            <a class="button-white" style="font-weight: bold;" href="https://www.playstation.com/es-es/editorial/this-month-on-playstation/">Obtén más información</a>
           </div>
           <div class="cardcontainer">
             <div class="thismonthincard">
@@ -519,11 +499,11 @@
     <section class="section" style="justify-content: center; margin: 0px;">
       <div class="text-container-center" style="justify-content: center; padding-left: 0px;">
           <p class="txtTitleLarger">¿A qué vas a jugar?</p>
-          <p class="txtSubContent" style="width: 620px;">Cuéntanos qué juegos y productos de PlayStation estás disfrutando. Utiliza el hashtag #PSshare en tus publicaciones de Instagram para tener la oportunidad de aparecer.</p>
+          <p class="txtSubContent" >Cuéntanos qué juegos y productos de PlayStation estás disfrutando. Utiliza el hashtag #PSshare en tus publicaciones de Instagram para tener la oportunidad de aparecer.</p>
       </div>
     </section>
     <!-- psstore -->
-    <section class="ps-store">
+    <section class="ps-store" style="background-color: white;">
         <div class="store-container">
             <div class="left-store">
                 <div class="logo-store">
