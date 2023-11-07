@@ -34,6 +34,8 @@
   color: white;
   font-size: 42px;
   padding: 10px;
+  margin-left: 150px;
+  margin-top: 20px;
 }
 
 .thismonthintop2 {
@@ -43,6 +45,7 @@
   font-size: 24px;
   padding: 10px;
   max-width: 600px;
+  margin-left: 150px;
 }
 
 .thismonthinbutton {
@@ -89,7 +92,7 @@
 .thismonthincard {
     display: flex;
     flex-direction: column;
-    width: 250px; 
+    width: 300px; 
     padding: 2px;
   }
 
@@ -107,14 +110,15 @@
     text-align: center;
   }
 
-  .invisibletrick {
- color : #1e1e3f;
-  }
-
 .cardcontainer {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     flex-direction: row;
     flex-wrap: wrap;
     padding: 50px;
   }
+
+.thismonthbutton {
+  margin-left: 150px;
+  margin-top: 15px;
+}
