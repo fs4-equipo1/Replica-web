@@ -3,63 +3,117 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="author" content="Eliane Benitez" />
-    <title>PlayStation Cat</title>
-    <link rel="stylesheet" href="offeredGames.css" />
-    <link rel="stylesheet" href="buttons.css" />
-    <link rel="stylesheet" href="global.css" />
+    <title>Document</title>
+    <link rel="stylesheet" href="try.css" />
+    <link rel="stylesheet" href="/buttons.css" />
   </head>
-
   <body>
-    <div class="card">
-      <div class="dinamic-card">
-        <div class="img-container">
-          <img />
-          <h1></h1>
-          <p></p>
-          <button class="button-white"></button>
+    <div class="container">
+      <div class="images">
+        <figure itemscope="" itemtype="http://schema.org/ImageObject">
+          <picture id="spidermanfondo">
+            <img
+              id="imgchange"
+              itemprop="contentUrl"
+              src="https://gmedia.playstation.com/is/image/SIEPDC/spider-man-2-hero-banner-desktop-07-en-16oct23?$1600px$"
+            />
+          </picture>
+        </figure>
+      </div>
+      <div class="select">
+        <div class="card button" id="spider-man">
+          <img
+            src="https://gmedia.playstation.com/is/image/SIEPDC/spider-man-2-keyart-01-en-31may23?$1200px$"
+          />
         </div>
-        <!--
-        <div class="img-container">
-                <img>
-                <h1></h1>
-                <p></p>
-                <button></button>
+        <div class="card button" id="x">
+          <div
+            class="media-block media-block--image"
+            data-lightbox-theme="light"
+            data-src="https://gmedia.playstation.com/is/image/SIEPDC/deep-earth-collection-red-and-blue-keyart-01-en-03nov23"
+          >
+            <div class="media-block__inner">
+              <figure
+                itemscope=""
+                itemtype="http://schema.org/ImageObject"
+                class="media-block__figure not-hovered"
+              >
+                <picture
+                  class="media-block__img lozad lazy-loaded"
+                  data-alt="Arte guía de la colección Deep earth"
+                  data-loaded="true"
+                >
+                  <source
+                    srcset="
+                      https://gmedia.playstation.com/is/image/SIEPDC/deep-earth-collection-red-and-blue-keyart-01-en-03nov23?$1200px$
+                    "
+                    media="(min-width: 768px)" />
+                  <source
+                    srcset="
+                      https://gmedia.playstation.com/is/image/SIEPDC/deep-earth-collection-red-and-blue-keyart-01-en-03nov23?$800px$
+                    "
+                    media="(min-width: 320px)" />
+                  <noscript
+                    ><img
+                      itemprop="contentUrl"
+                      src="https://gmedia.playstation.com/is/image/SIEPDC/deep-earth-collection-red-and-blue-keyart-01-en-03nov23?$100px$"
+                      alt="Arte guía de la colección Deep earth"
+                  /></noscript>
+                  <img alt="Arte guía de la colección Deep earth"
+                /></picture>
+              </figure>
             </div>
-            <div class="img-container">
-                <img>
-                <h1></h1>
-                <p></p>
-                <button></button>
-            </div>
-            <div class="img-container">
-                <img>
-                <h1></h1>
-                <p></p>
-                <button></button>
-            </div>
-            <div class="img-container">
-                <img>
-                <h1></h1>
-                <p></p>
-                <button></button>
-            </div>
-            <div class="img-container">
-                <img>
-                <h1></h1>
-                <p></p>
-                <button></button>
-            </div>
-            -->
-        <div class="img-selector">
-          <button class="img-button"></button>
-          <button class="img-button"></button>
-          <button class="img-button"></button>
-          <button class="img-button"></button>
-          <button class="img-button"></button>
-          <button class="img-button"></button>
+          </div>
+        </div>
+        <div class="card button" id="y">
+          <picture
+            class="media-block__img lozad lazy-loaded"
+            data-alt="Arte guía de Alan Wake 2"
+            data-loaded="true"
+          >
+            <source
+              srcset="
+                https://gmedia.playstation.com/is/image/SIEPDC/alen-wake-2-keyart-01-en-17oct23?$1200px$
+              "
+              media="(min-width: 768px)" />
+            <source
+              srcset="
+                https://gmedia.playstation.com/is/image/SIEPDC/alen-wake-2-keyart-01-en-17oct23?$800px$
+              "
+              media="(min-width: 320px)" />
+            <noscript
+              ><img
+                itemprop="contentUrl"
+                src="https://gmedia.playstation.com/is/image/SIEPDC/alen-wake-2-keyart-01-en-17oct23?$100px$"
+                alt="Arte guía de Alan Wake 2"
+            /></noscript>
+            <img alt="Arte guía de Alan Wake 2"
+          /></picture>
         </div>
       </div>
     </div>
+    <script>
+      let spiderman = document.getElementById("spider-man");
+      let x = document.getElementById("x");
+      let y = document.getElementById("y");
+      let imgchanges = document.getElementById("imgchange");
+
+      spiderman.onclick = function () {
+        imgchange.src =
+          "https://gmedia.playstation.com/is/image/SIEPDC/spider-man-2-hero-banner-desktop-07-en-16oct23?$1600px$";
+      };
+      x.onclick = function () {
+        imgchange.src =
+          "https://gmedia.playstation.com/is/image/SIEPDC/deep-earth-collection-red-and-blue-keyart-01-en-03nov23?$1200px$";
+      };
+      y.onclick = function () {
+        imgchange.src =
+          "https://gmedia.playstation.com/is/image/SIEPDC/alen-wake-2-keyart-01-en-17oct23?$1200px$";
+        const div = document.createElement("textContainer");
+        const button = document.createElement("button-Red");
+        div.appendChild(button);
+        document.body.appendChild(div);
+      };
+    </script>
   </body>
 </html>
