@@ -1,0 +1,124 @@
+.thismonth {
+  display: flex;
+  align-items: center; /* Vertically center the content if needed */
+}
+
+.thismonthcontainer {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  height: fit-content;
+}
+
+.backgroundThisMonth{
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.thismonthinimg {
+  width: 100%;
+  margin: 0;
+}
+
+.thismonthpurple {
+  background: rgb(37, 37, 80);
+  /* background: linear-gradient(180deg, rgba(0,0,0,0) 0%, #1e1e3f 9%); */
+  height: 100%;
+}
+
+.thismonthintop {
+  display: flex;
+  flex-wrap: wrap;
+  color: white;
+  font-size: 42px;
+  padding: 10px;
+  margin-left: 150px;
+  margin-top: 20px;
+}
+
+.thismonthintop2 {
+  display: flex;
+  flex-wrap: wrap;
+  color: #dcc8ea;
+  font-size: 24px;
+  padding: 10px;
+  max-width: 600px;
+  margin-left: 150px;
+}
+
+.thismonthinbutton {
+  top: 35%;
+  left: 8%;
+  display: inline-block;
+  padding: 0.5em 1em;
+  background: white;
+  color: black;
+  border-radius: 2em;
+  border: none;
+  outline: 2px solid white;
+}
+
+.thismonthinbutton:hover {
+    outline-offset: 3px;
+  }
+
+.thismonthincard img {
+    border-radius: 10%;
+  }
+
+.thismonthincard:hover {
+    transform: scale(1.01);
+}
+
+.thismonthincard2:hover {
+    transform: scale(1.01);
+}
+
+.thismonthincard3:hover {
+    transform: scale(1.01);
+}
+
+
+  .thismonthincard2 img {
+    border-radius: 10%;
+}
+
+.thismonthincard3 img {
+    border-radius: 10%;
+}
+
+.thismonthincard {
+    display: flex;
+    flex-direction: column;
+    width: 300px; 
+    padding: 2px;
+  }
+
+
+
+.thismonthincardimage {
+    width: 100%;
+    height: auto;
+  }
+
+.thismonthincardtext {
+    color: white;
+    font-size: 28px;
+    margin-top: 10px;
+    text-align: center;
+  }
+
+.cardcontainer {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 50px;
+  }
+
+.thismonthbutton {
+  margin-left: 150px;
+  margin-top: 15px;
+}

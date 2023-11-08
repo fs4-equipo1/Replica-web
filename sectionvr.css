@@ -1,0 +1,52 @@
+@media (max-width: 425px) {
+  .section {
+    padding: 20px; 
+    text-align: center; 
+    background-position: center;
+  }
+
+  .container {
+    display: flex;
+    align-items: end; 
+    justify-content: center;
+  }
+
+  .button-container {
+    flex-direction: column; 
+    gap: 10px; 
+    align-items: center;
+  }
+
+  .button-white,
+  .button-red,
+  .button-blue {
+    padding: 10px 20px;
+    font-size: 16px; 
+    white-space: nowrap; 
+  }
+
+  .image{
+    display: block; 
+    margin: 10px 0; 
+  }
+
+  .text-container-left {
+    justify-content: end;
+    align-items: center;
+    width: 380px;
+  }
+  .titulovr {
+    text-align: center;
+    font-weight: normal;
+    font-size: 25px;
+    width: 200px;
+    align-items: center;
+    
+  }
+  .paragraphvr {
+    font-size: 16px;
+    width: 325px;
+    
+    text-align: center;
+  }
+}
