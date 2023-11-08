@@ -47,16 +47,21 @@
 
 .product {
     width: 22%;
-    height: 400px;
+    height: 410px;
     min-width: 23ch;
     box-shadow: 0 5px 9px 0 rgba(20, 20, 20, 0.336);
     background-color: rgba(0, 0, 0, 0.514);
     border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
 }
 
 .text-product {
     padding: 8px;
     height: 20%;
+    min-height: 50px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -74,11 +79,11 @@ max-width:100%;
 max-height:100%;
 }
 
-.ps-product > .button-container > .button-red{
+.product > .button-container > .button-red{
     display: block;
     margin-left: auto;
     margin-right: auto;
-    margin-bottom: 15px;
+    margin-bottom: 10px;
 }
 
 .merchcontainer > .button-container > .button-white{
@@ -90,14 +95,14 @@ max-height:100%;
     width: 100%;
 }
 
-.ps-product > .button-container, .merchcontainer > .button-container {
+.product > .button-container, .merchcontainer > .button-container {
     padding: 10px;
     margin: 0;
     margin-bottom: 10px;
 }
 
 @media only screen and (max-width:1210px) {
-    .ps-product {
+    .product {
         min-width: 21ch;
     }
     
@@ -117,7 +122,7 @@ max-height:100%;
     .products-box{
         flex-direction: column;
     }
-    .ps-product {
+    .product {
         min-width: 25ch;
     }
 }
