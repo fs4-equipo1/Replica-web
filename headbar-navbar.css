@@ -10,7 +10,8 @@
 }
 
 .menu-mobile {
-  position: none;
+    display: none;
+  position: fixed;
   z-index: 101;
   top: 60px;
 
