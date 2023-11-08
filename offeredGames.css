@@ -45,3 +45,7 @@
 
     transform: translateY(-20px);
 }
+
+@media (max-width:425px) {
+    
+}
