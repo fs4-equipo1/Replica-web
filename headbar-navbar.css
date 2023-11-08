@@ -121,10 +121,6 @@
   flex-direction: column;
 }
 
-body {
-  margin: 0;
-}
-
 .button-primary {
   margin: 5px;
   border-radius: 15px;

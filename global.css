@@ -1,9 +1,8 @@
-body,
-html {
+body {
   height: 100%;
   margin: 0;
-  background-color: white;
-  /* width: 100vw; */
+  background-color: red;
+  width: 100%;
 }
 
 /* globalizado */
