@@ -1,3 +1,10 @@
+.sectionPS{
+  display: block;
+  background-image: url(resources/pictures/backgroundpsplus.png);
+  background-position: right;
+  height: fit-content;
+  padding: 10px;
+}
 
 .titulo-general {
   display: flex;
@@ -101,10 +108,9 @@
   outline-offset: 2px;
 }
 
-@media (max-width: 360px) {
-  .section {
-    padding: 0; 
-   
+@media (max-width: 426px) {
+  .sectionPS {
+    padding: 0;
   }
 
   .txtTitleLarge {
