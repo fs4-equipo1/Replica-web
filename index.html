@@ -21,6 +21,7 @@
     <link rel="stylesheet" href="psstore.css">
     <link rel="stylesheet" href="offeredGames.css">
     <link rel="stylesheet" href="machines.css">
+    <link rel="stylesheet" href="nuevosLanzamientos.css">
 
     <script>
       function handleMenuOpen() {
@@ -611,7 +612,7 @@
         <div class="imagesMachines">
           <div class="textContainer">
               <h2 class="title">Presentación de la consola PS5 y accesorios</h2>
-              <h3 class="title blue">Consola PlayStation 5</h3>
+              <h3 class="title-blue">Consola PlayStation 5</h3>
               <p class="text">Descubre una nueva generación de juegos increíbles para PlayStation.</p>
               <a class="button-blue">Obtén más información</a>
           </div>
@@ -685,16 +686,16 @@
       </script>
     </section>
     <!-- psplus -->
-    <section class="section" style="display: block; height: 80vh; background-image: url(resources/pictures/backgroundpsplus.png); padding-bottom: 10px;">
-        <h1 class="txtTitleLarge" style="text-align: center; padding-top: 10px; justify-content: center; margin: 0px;"> Descubre PlayStation Plus</h1>
-        <p class="txtSubContent" style="text-align: center; justify-content: center; color: black;"> Disfruta de cientos de juegos clásicos, de PS4 o de PS5 y descubre épicas aventuras, indies únicos, los favoritos para jugar en familia y muchos más.</p>
+    <section class="sectionPS">
+        <div class="textosPS">
+          <h1 class="titulo-general"> Descubre PlayStation Plus</h1>
+          <p class="parrafo-general"> Disfruta de cientos de juegos clásicos, de PS4 o de PS5 y descubre épicas aventuras, indies únicos, los favoritos para jugar en familia y muchos más.</p>
+        </div>
         <div class="swiper carrusel">
           <div class="swiper-wrapper">
             <div class="swiper-slide">
-              <div
-                class="card-container"
-                style="background-image: url(resources/pictures/primercard.png)"
-              >
+              <div class="card-container"
+                   style="background-image: url(resources/pictures/primercard.png)">
                 <h3 class="titulo-card">PlayStation Plus Premium</h3>
                 <p class="paragraph">
                   Disfruta de todas las ventajas de las suscripciones Extra y<br />
@@ -787,6 +788,288 @@
         </div>
       </section>
     <!-- lanzamientos nuevos y proximos -->
+    <section class="section-news">
+      <div class="containerSection">
+          <div class="text-container">
+              <span class="titulo-pagina">Juegos increíbles de PS4 y PS5 que ya han salido o vendrán pronto</span>
+          </div>
+          <div class="pills-container">
+              <div class="radio-inputs">
+                  <label class="radio">
+                    <input type="radio" name="radio"  id="contenido1" checked>
+                    <span class="name" for="contenido1">Nuevos lanzamientos</span>
+                  </label>
+                  <label class="radio">
+                    <input type="radio" name="radio" id="contenido2">
+                    <span class="name" for="contenido2">Proximamente</span>
+                  </label>
+              </div>         
+          </div>
+          <div class="games-container" id="news-container">
+              <a href="" class="grid-games">
+                  <div class="contenedorJuegos">
+                      <div class="images-games">
+                          <img src="assets/hogwarts.webp" alt="juego Hogwarts Legacy">
+                      </div>
+                      <div class="name-game">
+                          <p>Hogwarts Legacy</p>
+                      </div>
+                  </div>
+              </a>
+              <a href="" class="grid-games">
+                  <div class="contenedorJuegos">
+                      <div class="images-games">
+                          <img src="assets/marvels-spider-man-2.webp" alt="juego Marvel's Spider-Man 2">
+                      </div>
+                      <div class="name-game">
+                          <p>Marvel's Spider-Man 2</p>
+                      </div>
+                  </div>
+              </a>
+              <a href="" class="grid-games">
+                  <div class="contenedorJuegos">
+                      <div class="images-games">
+                          <img src="assets/assassins-creed-mirage.webp" alt="juego Assassin's Creed Mirage">
+                      </div>
+                      <div class="name-game">
+                          <p>Assassin's Creed® Mirage</p>
+                      </div>
+                  </div>
+              </a>
+              <a href="" class="grid-games">
+                  <div class="contenedorJuegos">
+                      <div class="images-games">
+                          <img src="assets/ea-sports-fc.webp" alt="juego ES SPORTS FC24">
+                      </div>
+                      <div class="name-game">
+                          <p>ES SPORTS™ FC24</p>
+                      </div>
+                  </div>
+              </a>
+              <a href="" class="grid-games">
+                  <div class="contenedorJuegos">
+                      <div class="images-games">
+                          <img src="assets/horizon-forbidden-west.webp" alt="juego Horizon Forbidden West">
+                      </div>
+                      <div class="name-game">
+                          <p>Horizon Forbidden West</p>
+                      </div>
+                  </div>
+              </a>
+              <a href="" class="grid-games">
+                  <div class="contenedorJuegos">
+                      <div class="images-games">
+                          <img src="assets/street-fighter-6.webp" alt="juego Street Fighter 6">
+                      </div>
+                      <div class="name-game">
+                          <p>Street Fighter 6</p>
+                      </div>
+                  </div>
+              </a>
+              <a href="" class="grid-games">
+                  <div class="contenedorJuegos">
+                      <div class="images-games">
+                          <img src="assets/god-of-war.webp" alt="juego God of War">
+                      </div>
+                      <div class="name-game">
+                          <p>God of War</p>
+                      </div>
+                  </div>
+              </a>
+              <a href="" class="grid-games">
+                  <div class="contenedorJuegos">
+                      <div class="images-games">
+                          <img src="assets/the-last-of-us-part-i.webp" alt="juego The Last of Us Part I">
+                      </div>
+                      <div class="name-game">
+                          <p>The Last of Us™ Part I</p>
+                      </div>
+                  </div>
+              </a>
+              <a href="" class="grid-games">
+                  <div class="contenedorJuegos">
+                      <div class="images-games">
+                          <img src="assets/call-of-duty-modern-warfare-2.webp" alt="juego Call of Duty: Modern Warfare II">
+                      </div>
+                      <div class="name-game">
+                          <p>Call of Duty: Modern Warfare II</p>
+                      </div>
+                  </div>
+              </a>
+              <a href="" class="grid-games">
+                  <div class="contenedorJuegos">
+                      <div class="images-games">
+                          <img src="assets/final-fantasy-xvi.webp" alt="juego Final Fantasy XVI">
+                      </div>
+                      <div class="name-game">
+                          <p>Final Fantasy XVI</p>
+                      </div>
+                  </div>
+              </a>
+              <a href="" class="grid-games">
+                  <div class="contenedorJuegos">
+                      <div class="images-games">
+                          <img src="assets/Baldurs-gate-3.webp" alt="juego Baldur's Gate 3">
+                      </div>
+                      <div class="name-game">
+                          <p>Baldur's Gate 3</p>
+                      </div>
+                  </div>
+              </a>
+              <a href="" class="grid-games">
+                  <div class="contenedorJuegos">
+                      <div class="images-games">
+                          <img src="assets/gran-turismo-7.webp" alt="juego Gran Turismo 7">
+                      </div>
+                  <div class="name-game">
+                      <p>Gran Turismo® 7</p>
+                  </div>
+                  </div>
+              </a>
+          </div>
+          <div class="games-container" id="prox-container">
+              <a href="" class="grid-games">
+                  <div class="contenedorJuegos">
+                      <div class="images-games">
+                          <img src="assets/tekken-8.webp" alt="juego Tekken 8">
+                      </div>
+                      <div class="name-game">
+                          <p>Tekken 8</p>
+                      </div>
+                  </div>
+              </a>
+              <a href="" class="grid-games">
+                  <div class="contenedorJuegos">
+                      <div class="images-games">
+                          <img src="assets/final-fantasy-vii.webp" alt="juego Final Fantasy VII Rebirth">
+                      </div>
+                      <div class="name-game">
+                          <p>Final Fantasy VII Rebirth</p>
+                      </div>
+                  </div>
+              </a>
+              <a href="" class="grid-games">
+                  <div class="contenedorJuegos">
+                      <div class="images-games">
+                          <img src="assets/helldivers-2.webp" alt="juego Helldivers 2">
+                      </div>
+                      <div class="name-game">
+                          <p>Helldivers™ 2</p>
+                      </div>
+                  </div>
+              </a>
+              <a href="" class="grid-games">
+                  <div class="contenedorJuegos">
+                      <div class="images-games">
+                          <img src="assets/rise-of-the-ronin.webp" alt="juego Rise of the Ronin">
+                      </div>
+                      <div class="name-game">
+                          <p>Rise of the Ronin</p>
+                      </div>
+                  </div>
+              </a>
+              <a href="" class="grid-games">
+                  <div class="contenedorJuegos">
+                      <div class="images-games">
+                          <img src="assets/skull-and-bones.webp" alt="juego Skull and Bones">
+                      </div>
+                      <div class="name-game">
+                          <p>Skull and Bones</p>
+                      </div>
+                  </div>
+              </a>
+              <a href="" class="grid-games">
+                  <div class="contenedorJuegos">
+                      <div class="images-games">
+                          <img src="assets/silent-hill-2.webp" alt="juego Silent Hill 2">
+                      </div>
+                      <div class="name-game">
+                          <p>Silent Hill 2</p>
+                      </div>
+                  </div>
+              </a>
+              <a href="" class="grid-games">
+                  <div class="contenedorJuegos">
+                      <div class="images-games">
+                          <img src="assets/xdefiant.webp" alt="juego XDefiant">
+                      </div>
+                      <div class="name-game">
+                          <p>XDefiant</p>
+                      </div>
+                  </div>
+              </a>
+              <a href="" class="grid-games">
+                  <div class="contenedorJuegos">
+                      <div class="images-games">
+                          <img src="assets/stellar-blade.webp" alt="juego Stellar Blade">
+                      </div>
+                      <div class="name-game">
+                          <p>Stellar Blade™</p>
+                      </div>
+                  </div>
+              </a>
+              <a href="" class="grid-games">
+                  <div class="contenedorJuegos">
+                      <div class="images-games">
+                          <img src="assets/alone-in-the-dark.webp" alt="juego Alone in the Dark">
+                      </div>
+                      <div class="name-game">
+                          <p>Alone in the Dark</p>
+                      </div>
+                  </div>
+              </a>
+              <a href="" class="grid-games">
+                  <div class="contenedorJuegos">
+                      <div class="images-games">
+                          <img src="assets/prince-of-persia.webp" alt="juego Prince of Persia The Lost Crown">
+                      </div>
+                      <div class="name-game">
+                          <p>Prince of Persia The Lost Crown</p>
+                      </div>
+                  </div>
+              </a>
+              <a href="" class="grid-games">
+                  <div class="contenedorJuegos">
+                      <div class="images-games">
+                          <img src="assets/suicide-squad.webp" alt="juego Suicide Squad: Kill the Justice League">
+                      </div>
+                      <div class="name-game">
+                          <p>Suicide Squad: Kill the Justice League</p>
+                      </div>
+                  </div>
+              </a>
+              <a href="" class="grid-games">
+                  <div class="contenedorJuegos">
+                      <div class="images-games">
+                          <img src="assets/avatar-frontiers.webp" alt="Avatar: Frontiers of Pandora">
+                      </div>
+                  <div class="name-game">
+                      <p>Avatar: Frontiers of Pandora</p>
+                  </div>
+                  </div>
+              </a>
+          </div>
+      </div>
+  </section>
+  <script>
+      const radio1 = document.getElementById("contenido1");
+      const radio2 = document.getElementById("contenido2");
+      const contenido1 = document.getElementById("news-container");
+      const contenido2 = document.getElementById("prox-container");
+
+      contenido2.style.display = "none";
+
+      radio1.addEventListener("change", () => {
+          contenido1.style.display = "grid";
+          contenido2.style.display = "none";
+          
+      });
+
+      radio2.addEventListener("change", () => {
+          contenido1.style.display = "none";
+          contenido2.style.display = "grid";
+      });
+  </script>
     <!-- este mes en play station -->
     <section class="thismontin">
         <div class="thismonthcontainer">

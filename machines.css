@@ -98,15 +98,16 @@
     outline-offset: 2px;
 }
 
-.blue{
-    color: aqua;
-    font-size: small;
+.title-blue{
+    color: rgb(0 104 189 /1);
+    font-size: 22px;
     font-weight: 300;
     letter-spacing: .1px;
     line-height: 1.25em;
 }
+
 .title{
-    font-size: xx-large;
+    font-size: 43px;
     display: flex;
     flex-wrap: wrap;
     font-weight: 300;
