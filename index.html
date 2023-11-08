@@ -76,7 +76,7 @@
               </g>
             </svg>
           </span>
-          <span class="ham-menu" onclick="handleMenuOpen()">
+          <span class="ham-menu" id="ham-menu" onclick="handleMenuOpen()">
             <button
               class="dropdown-ham"
               style="background-color: transparent; border-color: transparent"
@@ -84,67 +84,86 @@
               <img
                 src="resources/hamburguer-menu.png"
                 width="25px"
-                height="25px"
+                height="23px"
               />
             </button>
           </span>
-
-          <div class="menu-mobile">
+          
+          <div class="menu-mobile" id="menu-mobile">
             <div class="menu-item">
               <div class="menu-item-left">
-                <p>Ico</p>
+                <img src="resources/juegos-icon.jpeg">
                 <h4>Juegos</h4>
               </div>
               <div class="menu-item-right">
-                <div class="flecha"></div>
+                <p class="flecha"> > </p>
               </div>
             </div>
             <div class="menu-item">
               <div class="menu-item-left">
-                <p>Ico</p>
-                <h4>Juegos</h4>
+                <img src="resources/ps5-icon.jpeg">
+                <h4>PS5</h4>
               </div>
               <div class="menu-item-right">
-                <div class="flecha"></div>
+                <p class="flecha"> > </p>
               </div>
             </div>
             <div class="menu-item">
               <div class="menu-item-left">
-                <p>Ico</p>
-                <h4>Juegos</h4>
+                <img src="resources/ps4-icon.jpeg">
+                <h4>PS4</h4>
               </div>
               <div class="menu-item-right">
-                <div class="flecha"></div>
+                <p class="flecha"> > </p>
               </div>
             </div>
             <div class="menu-item">
               <div class="menu-item-left">
-                <p>Ico</p>
-                <h4>Juegos</h4>
+                <img src="resources/servicios-icon.jpeg">
+                <h4>Servicios</h4>
               </div>
               <div class="menu-item-right">
-                <div class="flecha"></div>
+                <p class="flecha"> > </p>
               </div>
             </div>
             <div class="menu-item">
               <div class="menu-item-left">
-                <p>Ico</p>
-                <h4>Juegos</h4>
+                <img src="resources/accessorios-icon.jpeg">
+                <h4>Accesorios</h4>
               </div>
               <div class="menu-item-right">
-                <div class="flecha"></div>
+                <p class="flecha"> > </p>
               </div>
             </div>
             <div class="menu-item">
               <div class="menu-item-left">
-                <p>Ico</p>
-                <h4>Juegos</h4>
+                <img src="resources/noticias-icon.jpeg">
+                <h4>Noticias</h4>
               </div>
               <div class="menu-item-right">
-                <div class="flecha"></div>
+                <p class="flecha"> > </p>
+              </div>
+            </div>
+            <div class="menu-item">
+              <div class="menu-item-left">
+                <img src="resources/tienda-icon.jpeg">
+                <h4>Tienda</h4>
+              </div>
+              <div class="menu-item-right">
+                <p class="flecha"> > </p>
+              </div>
+            </div>
+            <div class="menu-item">
+              <div class="menu-item-left">
+                <img src="resources/assistencia-icon.jpeg">
+                <h4>Asistencia</h4>
+              </div>
+              <div class="menu-item-right">
+                <p class="flecha"> > </p>
               </div>
             </div>
           </div>
+
           <div class="dropdown" id="juegos">
             <div class="select-button">Juegos</div>
             <section class="dropdown-content">
@@ -564,6 +583,7 @@
         </div>
       </nav>
     </section>
+
     <!-- juegos -->
     <section class="section">
     <div class="containerCards">
@@ -604,6 +624,7 @@
         
       </script>
       </section>
+    
     <!-- productos A.K.A. machines -->
     <section class="section" style="background-color: white;">
     <div class="containerMachines">
@@ -1489,11 +1510,11 @@
             </div>
             <div class="footer-list" id="list1">
               <div class="footer-list-content">
-                <p>Sobre SIE</p>
-                <p>Trabajos</p>
-                <p>PlayStation Studios</p>
-                <p>PlayStation Productions</p>
-                <p>Empresa</p>
+                <p class="p-footer">Sobre SIE</p>
+                <p class="p-footer">Trabajos</p>
+                <p class="p-footer">PlayStation Studios</p>
+                <p class="p-footer">PlayStation Productions</p>
+                <p class="p-footer">Empresa</p>
               </div>
             </div>
           </div>
@@ -1504,12 +1525,12 @@
             </div>
             <div class="footer-list" id="list2">
               <div class="footer-list-content">
-                <p>PS5</p>
-                <p>PS4</p>
-                <p>PS VR2</p>
-                <p>PS Plus</p>
-                <p>Accesorios</p>
-                <p>Juegos</p>
+                <p class="p-footer">PS5</p>
+                <p class="p-footer">PS4</p>
+                <p class="p-footer">PS VR2</p>
+                <p class="p-footer">PS Plus</p>
+                <p class="p-footer">Accesorios</p>
+                <p class="p-footer">Juegos</p>
               </div>
             </div>
           </div>
@@ -1520,10 +1541,10 @@
             </div>
                 <div class="footer-list" id="list3">
               <div class="footer-list-content">
-                <p>Medioambiente</p>
-                <p>Accesibilidad</p>
-                <p>Seguridad online</p>
-                <p>Diversidad, equidad e inclusión.</p>
+                <p class="p-footer">Medioambiente</p>
+                <p class="p-footer">Accesibilidad</p>
+                <p class="p-footer">Seguridad online</p>
+                <p class="p-footer">Diversidad, equidad e inclusión.</p>
               </div>
             </div>
           </div>
@@ -1534,12 +1555,12 @@
             </div>
             <div class="footer-list" id="list4">
               <div class="footer-list-content">
-                <p>Centro de atención al cliente</p>
-                <p>Seguridad en PlayStation</p>
-                <p>Estado de PSN</p>
-                <p>Reparaciones de PlayStation</p>
-                <p>Restablecer contraseña</p>
-                <p>Manuales</p>
+                <p class="p-footer">Centro de atención al cliente</p>
+                <p class="p-footer">Seguridad en PlayStation</p>
+                <p class="p-footer">Estado de PSN</p>
+                <p class="p-footer">Reparaciones de PlayStation</p>
+                <p class="p-footer">Restablecer contraseña</p>
+                <p class="p-footer">Manuales</p>
               </div>
             </div>
           </div>
@@ -1550,11 +1571,11 @@
             </div>
             <div class="footer-list" id="list5">
               <div class="footer-list-content">
-                <p>Términos de servicio de PSN</p>
-                <p>Política de cancelación de PS Store</p>
-                <p>Clasificaciones por edad</p>
-                <p>Aviso de salud</p>
-                <p>Desarrolladores</p>
+                <p class="p-footer">Términos de servicio de PSN</p>
+                <p class="p-footer">Política de cancelación de PS Store</p>
+                <p class="p-footer">Clasificaciones por edad</p>
+                <p class="p-footer">Aviso de salud</p>
+                <p class="p-footer">Desarrolladores</p>
               </div>
             </div>
           </div>
@@ -1591,8 +1612,8 @@
                       height="20px"
                   /></a>
                 </div>
-                <p>Aplicación de iOS</p>
-                <p>Aplicación de Android</p>
+                <p class="p-footer">Aplicación de iOS</p>
+                <p class="p-footer">Aplicación de Android</p>
               </div>
             </div>
           </div>
@@ -1615,7 +1636,7 @@
             />
           </div>
           <div>
-            <p style="margin-left: 10px">
+            <p  class="p-footer" style="margin-left: 10px">
               © 2023&nbsp;Sony Interactive Entertainment Europe Limited
               (SIEE)<br />
               Todo el contenido, títulos de juegos, nombres comerciales y/o
@@ -1641,10 +1662,11 @@
                 />
               </span>
             </a>
-            <p>España</p>
+            <p class="p-footer">España</p>
           </div>
           <div class="right">
             <a
+              class="a-footer"
               href="/es-es/legal/"
               target="_self"
               data-track='{ "eventInfo": { "eventAction": "click", "eventName": "select footer link" }, "attributes": { "moduleName": "footer", "label": "", "assetName": "empty", "elementType": "link", "position": legalLink-1, "userActionFlag": true } }'
@@ -1652,6 +1674,7 @@
             >
 
             <a
+              class="a-footer"
               href="/es-es/legal/privacy-policy/"
               target="_self"
               data-track='{ "eventInfo": { "eventAction": "click", "eventName": "select footer link" }, "attributes": { "moduleName": "footer", "label": "", "assetName": "empty", "elementType": "link", "position": legalLink-2, "userActionFlag": true } }'
@@ -1659,6 +1682,7 @@
             >
 
             <a
+              class="a-footer"
               href="/es-es/legal/website-terms-of-use/"
               target="_self"
               data-track='{ "eventInfo": { "eventAction": "click", "eventName": "select footer link" }, "attributes": { "moduleName": "footer", "label": "", "assetName": "empty", "elementType": "link", "position": legalLink-3, "userActionFlag": true } }'
@@ -1666,6 +1690,7 @@
             >
 
             <a
+              class="a-footer"
               href="https://www.playstation.com/site-map/"
               target="_blank"
               data-track='{ "eventInfo": { "eventAction": "click", "eventName": "select footer link" }, "attributes": { "moduleName": "footer", "label": "", "assetName": "empty", "elementType": "link", "position": legalLink-4, "userActionFlag": true } }'
@@ -1673,6 +1698,7 @@
             >
 
             <a
+              class="a-footer"
               href="/es-es/legal/cookies//"
               target="_self"
               data-track='{ "eventInfo": { "eventAction": "click", "eventName": "select footer link" }, "attributes": { "moduleName": "footer", "label": "", "assetName": "empty", "elementType": "link", "position": legalLink-5, "userActionFlag": true } }'
@@ -1680,6 +1706,7 @@
             >
 
             <a
+              class="a-footer"
               href="/es-es/legal/software-usage-terms/"
               target="_self"
               data-track='{ "eventInfo": { "eventAction": "click", "eventName": "select footer link" }, "attributes": { "moduleName": "footer", "label": "", "assetName": "empty", "elementType": "link", "position": legalLink-6, "userActionFlag": true } }'

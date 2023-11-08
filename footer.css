@@ -89,8 +89,9 @@ footer{
 
     display: flex;
     flex-direction: row;
-    gap: 5px;
+    gap: 2.5px;
     align-items: center;
+    justify-content: left;
 }
 
 .logo-sony{
@@ -103,6 +104,14 @@ footer > p{
 
 .footer-list-shown{
     display: block;
+}
+
+.p-footer{
+    font-size: small;
+}
+
+.a-footer{
+    font-size: small;
 }
 
 @media (max-width: 769px) {
