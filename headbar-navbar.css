@@ -192,13 +192,13 @@ body{
     }
 
     #BotonPS{
-        position: fixed;
+        position: absolute;
         top: 0.5;
         right: 45%;
     }
 
     .search{
-        position: fixed;
+        position: absolute;
         top: 0.5;
         left: 5%;
     }
@@ -208,6 +208,6 @@ body{
     }
 
     .ham-menu{
-        display: block;
+        display: inline-block;
     }
 }
