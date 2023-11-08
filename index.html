@@ -1052,12 +1052,15 @@
           data-component="icon"
           data-icon-theme="interactive"
         >
-          <img src="resources/playstation logo - footer.jpeg" />
+          <img src="resources/playstation logo - footer.jpeg"/>
         </div>
         <div class="grid-footer">
-          <div class="footer-v1">
-            <button class="footer-button">Acerca de</button>
-            <div class="footer-list">
+          <div id="footer-v1">
+            <div class="selectedOption" onclick="showSelected('list1')">
+                <div class="footer-button">Acerca de</div>
+                <div class="buttonPlus">+</div>
+            </div>
+            <div class="footer-list" id="list1">
               <div class="footer-list-content">
                 <p>Sobre SIE</p>
                 <p>Trabajos</p>
@@ -1067,9 +1070,12 @@
               </div>
             </div>
           </div>
-          <div class="footer-v2">
-            <button class="footer-button">Productos</button>
-            <div class="footer-list">
+          <div id="footer-v2">
+            <div class="selectedOption" onclick="showSelected('list2')">
+                <div class="footer-button">Productos</div>
+                <div class="buttonPlus">+</div>
+            </div>
+            <div class="footer-list" id="list2">
               <div class="footer-list-content">
                 <p>PS5</p>
                 <p>PS4</p>
@@ -1080,9 +1086,12 @@
               </div>
             </div>
           </div>
-          <div class="footer-v3">
-            <button class="footer-button">Valores</button>
-            <div class="footer-list">
+          <div id="footer-v3">
+            <div class="selectedOption" onclick="showSelected('list3')">
+                <div class="footer-button">Valores</div>
+                <div class="buttonPlus">+</div>
+            </div>
+                <div class="footer-list" id="list3">
               <div class="footer-list-content">
                 <p>Medioambiente</p>
                 <p>Accesibilidad</p>
@@ -1091,9 +1100,12 @@
               </div>
             </div>
           </div>
-          <div class="footer-v4">
-            <button class="footer-button">Atención al cliente</button>
-            <div class="footer-list">
+          <div id="footer-v4">
+            <div class="selectedOption" onclick="showSelected('list4')">
+                <div class="footer-button">Atención al cliente</div>
+                <div class="buttonPlus">+</div>
+            </div>
+            <div class="footer-list" id="list4">
               <div class="footer-list-content">
                 <p>Centro de atención al cliente</p>
                 <p>Seguridad en PlayStation</p>
@@ -1104,9 +1116,12 @@
               </div>
             </div>
           </div>
-          <div class="footer-v5">
-            <button class="footer-button">Recursos</button>
-            <div class="footer-list">
+          <div id="footer-v5">
+            <div class="selectedOption" onclick="showSelected('list5')">
+                <div class="footer-button">Recursos</div>
+                <div class="buttonPlus">+</div>
+            </div>
+            <div class="footer-list" id="list5">
               <div class="footer-list-content">
                 <p>Términos de servicio de PSN</p>
                 <p>Política de cancelación de PS Store</p>
@@ -1116,9 +1131,12 @@
               </div>
             </div>
           </div>
-          <div class="footer-v6">
-            <button class="footer-button">Conectar</button>
-            <div class="footer-list">
+          <div id="footer-v6">
+            <div class="selectedOption" onclick="showSelected('list6')">
+                <div class="footer-button">Conectar</div>
+                <div class="buttonPlus">+</div>
+            </div>
+            <div class="footer-list" id="list6">
               <div class="footer-list-content">
                 <div class="redes">
                   <a href="#">
@@ -1151,7 +1169,16 @@
               </div>
             </div>
           </div>
+        <script>
+            let doOnce = 0
+            function showSelected(selectedVar){
+            let selected = document.getElementById(selectedVar)
+            if (doOnce === 0){selected.style.display = "block"; doOnce = 1}
+            else if (doOnce === 1){selected.style.display = "none"; doOnce = 0}
+            }
+        </script>
         </div>
+        
         <div class="logo-sony">
           <div class="sie-logo">
             <img
