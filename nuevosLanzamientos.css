@@ -84,6 +84,7 @@ body{
 
 .radio-inputs .radio:hover input:not(:checked) + .name{
   color: #207fb9 ;
+  box-shadow: 0px 8px 8px 0 rgb(0 0 0 /.8);
 }
 
 .games-container{
