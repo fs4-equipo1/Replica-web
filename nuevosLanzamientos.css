@@ -36,8 +36,8 @@ body{
   padding-right: 80px;
   padding-block-start: 2px;
   padding-block-end: 32px;
-  margin-left: calc(80px * -1);
-  /*margin-right: calc(80px * -1);*/
+  /* margin-left: calc(80px * -1); */
+  /* margin-right: calc(80px * -1);*/
   justify-content: center;
   
 }
