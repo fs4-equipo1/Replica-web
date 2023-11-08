@@ -1,6 +1,6 @@
 .containerCards{
-    width: 100vw;
-    height: auto;
+    max-width: 100%;
+    height: fit-content;
     position: relative;
     display: flex;
     flex-direction: column;
@@ -23,26 +23,20 @@
     margin: 15px;
 
     position: relative;
+    object-fit: contain;
 
     overflow: hidden;
 }
-.card-button>img{
+.card-button img{
     position: relative;
-    object-fit: contain;
+    width: 100%;
 }
 .images{
-    max-width: 100vw;
-    height: 540px;
-
-    position: relative;
-
-    overflow: hidden;
+    max-width: inherit;
+    object-fit: contain;
 }
 .imgChange{
-    width: 100%;
-    height: 100%;
-    position: relative;
-    align-items: stretch;
+    display: none;
 }
 
 

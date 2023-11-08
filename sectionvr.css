@@ -1,5 +1,17 @@
+.sectionVR {
+  height: 75vh;
+
+  background-color: white;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+
+  display: flex;
+  align-items: center;
+}
+
 @media (max-width: 426px) {
-  .section {
+  .sectionVR {
     padding: 20px; 
     text-align: center; 
     background-position: center;

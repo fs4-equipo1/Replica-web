@@ -116,7 +116,24 @@
 .cardcontainer {
     display: flex;
     justify-content: space-between;
+    align-items: center;
     flex-direction: row;
     flex-wrap: wrap;
     padding: 50px;
   }
+
+@media (max-width: 769px){
+  .cardcontainer{
+    flex-wrap: nowrap;
+  }
+}
+
+@media (max-width: 426px){
+  .cardcontainer{
+    flex-direction: column;
+  }
+  #identificador{
+    margin-left: 0px;
+    margin: 0px;
+  }
+}

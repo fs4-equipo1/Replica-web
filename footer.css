@@ -125,6 +125,7 @@ footer > p{
 
     .right{
         padding-left: 10px;
+        flex-wrap: wrap;
     }
     
 }
