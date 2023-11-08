@@ -12,11 +12,16 @@ footer{
 
     color: white;
     background-color: #00439C;
+    font-size: medium;
 }
 
-.footer-list > li{
-    list-style: none;
-    padding: auto;
+.site-footer-v2__ps-logo{
+    border-bottom: 0.5px solid white;
+}
+
+.footer-list > ul{
+    list-style-type: none;
+    padding: none;
 
 }
 
@@ -38,12 +43,24 @@ footer{
     font-weight: bold;
 }
 
+.buttonPlus{
+    display: none;
+    font-weight: bolder;
+    color: white;
+}
+
 .grid-footer{
 
     display: grid;
     gap: 2px;
     grid-template-columns: repeat(6, 1fr);
     padding: 10px;
+    border-bottom: 0.5px solid white;
+}
+
+.selectedOption{
+    display: flex;
+    justify-content: space-between;
 }
 
 .footer-nav{
@@ -74,4 +91,40 @@ footer{
     flex-direction: row;
     gap: 5px;
     align-items: center;
+}
+
+.logo-sony{
+    border-bottom: 0.5px solid white;
+}
+
+footer > p{
+    font-size: medium;
+}
+
+.footer-list-shown{
+    display: block;
+}
+
+@media (max-width: 769px) {
+    .grid-footer{
+        display: flex;
+        flex-direction: column;
+    }
+    .footer-list{
+        display: none;
+    }
+
+    .buttonPlus{
+        display: block;
+    }
+    
+    .footer-nav{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .right{
+        padding-left: 10px;
+    }
+    
 }
