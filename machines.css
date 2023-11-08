@@ -1,7 +1,6 @@
 .containerMachines{
-    height: 100vh;
-    width: auto;
-    position: relative;
+    height: fit-content;
+    max-width: 100vw;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -36,14 +35,14 @@
     overflow: hidden;
 }
 
-.imgChange{
-    position: relative;
-    object-fit: contain;
+.imgChange2{
+    display: block;
+    max-width: 300px;
 }
 
 .imagesMachines{
     width: 100%;
-    position: relative;
+    height: auto;
     display: flex;
     flex-direction: row;
     align-items: center;
