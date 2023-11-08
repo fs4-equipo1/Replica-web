@@ -5,47 +5,51 @@
 
 .thismonthcontainer {
   position: relative;
+  display: flex;
+  flex-direction: column;
+  height: fit-content;
 }
 
-
-.thismonthpurple {
-  background-color: #1e1e3f;
-  width: 100vw;
-  height: 40vh;
+.backgroundThisMonth{
   position: absolute;
-  top: 79%;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
 }
 
 .thismonthinimg {
-  width: 100vw;
-  height: 60vh;
+  width: 100%;
   margin: 0;
 }
 
+.thismonthpurple {
+  background: rgb(37, 37, 80);
+  /* background: linear-gradient(180deg, rgba(0,0,0,0) 0%, #1e1e3f 9%); */
+  height: 100%;
+}
+
 .thismonthintop {
-  position: absolute;
-  top: 20%;
-  left: 12%;
-  transform: translate(-50%, -50%);
+  display: flex;
+  flex-wrap: wrap;
   color: white;
   font-size: 42px;
+  padding: 10px;
+  margin-left: 30px;
 }
 
 .thismonthintop2 {
-  position: absolute;
-  top: 38%;
-  left: 24%;
-  transform: translate(-50%, -50%);
+  display: flex;
+  flex-wrap: wrap;
   color: #dcc8ea;
   font-size: 24px;
+  padding: 10px;
+  max-width: 600px;
+  margin-left: 30px;
 }
 
-
-
 .thismonthinbutton {
-  position: absolute;
-  top: 50%;
-  left: 6%;
+  top: 35%;
+  left: 8%;
   display: inline-block;
   padding: 0.5em 1em;
   background: white;
@@ -64,15 +68,15 @@
   }
 
 .thismonthincard:hover {
-    transform: translate(-50%, -50%) scale(1.01);
+    transform: scale(1.01);
 }
 
 .thismonthincard2:hover {
-    transform: translate(-50%, -50%) scale(1.01);
+    transform: scale(1.01);
 }
 
 .thismonthincard3:hover {
-    transform: translate(-50%, -50%) scale(1.01);
+    transform: scale(1.01);
 }
 
 
@@ -85,32 +89,12 @@
 }
 
 .thismonthincard {
-    position: absolute;
-    top: 100%;
-    left: 20%;
-    transform: translate(-50%, -50%);
-    width: 22vw; 
+    display: flex;
+    flex-direction: column;
+    width: 250px; 
     padding: 2px;
   }
 
-  .thismonthincard2 {
-    position: absolute;
-    top: 100%;
-    left: 48%;
-    transform: translate(-50%, -50%);
-    width: 22vw; 
-    padding: 2px;
-  }
-
-  
-  .thismonthincard3 {
-    position: absolute;
-    top: 100%;
-    left: 76%;
-    transform: translate(-50%, -50%);
-    width: 22vw; 
-    padding: 2px;
-  }
 
 
 .thismonthincardimage {
@@ -128,8 +112,11 @@
   .invisibletrick {
  color : #1e1e3f;
   }
+
 .cardcontainer {
     display: flex;
     justify-content: space-between;
     flex-direction: row;
+    flex-wrap: wrap;
+    padding: 50px;
   }
