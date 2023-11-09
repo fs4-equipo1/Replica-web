@@ -24,15 +24,15 @@
     <link rel="stylesheet" href="nuevosLanzamientos.css">
 
     <script>
-      function handleMenuOpen() {
-        console.log("menu-mobile display: block");
-        console.log("X display: block");
-        console.log("ham-menu: none");
-      }
-      function handleMenuClose() {
-        console.log("ham-menu display: block");
-        console.log("x display: none");
-        console.log("menu- mobile display: none");
+      menumobile.style.display = "none";
+      function ShowHide(x) {
+        x.classList.toggle("change");
+        var Menu = document.getElementById("menumobile");
+        if (menumobile.style.display === "none") {
+           menumobile.style.display = "block";
+        } else {
+           menumobile.style.display = "none";
+        }
       }
     </script>
   </head>
@@ -76,6 +76,7 @@
               </g>
             </svg>
           </span>
+          <!-- ham menu with .png:
           <span class="ham-menu" id="ham-menu" onclick="handleMenuOpen()">
             <button
               class="dropdown-ham"
@@ -87,9 +88,17 @@
                 height="23px"
               />
             </button>
-          </span>
+          </span> -->
+
+          <!-- NUEVO HAM MENU CON HTML Y CSS: -->
+
+          <div class="container" onclick="ShowHide(this)">
+            <div class="bar1"></div>
+            <div class="bar2"></div>
+            <div class="bar3"></div>
+          </div>
           
-          <div class="menu-mobile" id="menu-mobile">
+          <div class="menumobile" id="menumobile">
             <div class="menu-item">
               <div class="menu-item-left">
                 <img src="resources/juegos-icon.jpeg">
@@ -566,8 +575,8 @@
             <svg
               aria-hidden="true"
               focusable="false"
-              width="20px"
-              height="20px"
+              width="30px"
+              height="25px"
               version="1.1"
               xmlns="http://www.w3.org/2000/svg"
               xmlns:xlink="http://www.w3.org/1999/xlink"
