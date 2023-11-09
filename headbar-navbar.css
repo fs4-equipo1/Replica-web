@@ -249,8 +249,10 @@
     cursor: pointer;
     padding: 1px;
     height: 60px;
-    margin-top: 11px;
-    margin-left: 5px;
+    /*margin-top: 11px;
+    margin-left: 5px;*/
+    margin: 10px;
+    
   }
 
   .container:hover{
@@ -261,7 +263,7 @@
     width: 30px;
     height: 3px;
     background-color: #9c9eaea7;
-    margin: 6px 0;
+    margin: 9px 0;
     /*transition: 0.4s;*/
   }
 
