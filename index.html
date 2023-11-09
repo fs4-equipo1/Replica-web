@@ -25,14 +25,18 @@
 
     <script>
        
-      menumobile.style.display = "none";
+      // let menumobile = document.getElementById("menumobile")
+      let doOnce2 = 0 //0 para cerradop, 1 para abierto.
+      // menumobile.style.display = "none";
       function ShowHide(x) {
         x.classList.toggle("change");
         var Menu = document.getElementById("menumobile");
-        if (menumobile.style.display === "none") {
-           menumobile.style.display = "block";
-        } else {
-           menumobile.style.display = "none";
+        if (doOnce2 === 0) {
+           Menu.classList.add('menuShown');
+           doOnce2 = 1
+        } else if (doOnce2 === 1){
+           Menu.classList.remove('menuShown');
+           doOnce2 = 0
         }
     }
 
@@ -1516,9 +1520,9 @@
         </div>
         <div class="grid-footer">
           <div id="footer-v1">
-            <div class="selectedOption" onclick="showSelected('list1')">
+            <div class="selectedOption" onclick="showSelected('list1','Plus1')">
                 <div class="footer-button">Acerca de</div>
-                <div class="buttonPlus">+</div>
+                <div class="buttonPlus" id="Plus1">+</div>
             </div>
             <div class="footer-list" id="list1">
               <div class="footer-list-content">
@@ -1531,9 +1535,9 @@
             </div>
           </div>
           <div id="footer-v2">
-            <div class="selectedOption" onclick="showSelected('list2')">
+            <div class="selectedOption" onclick="showSelected('list2','Plus2')">
                 <div class="footer-button">Productos</div>
-                <div class="buttonPlus">+</div>
+                <div class="buttonPlus" id="Plus2">+</div>
             </div>
             <div class="footer-list" id="list2">
               <div class="footer-list-content">
@@ -1547,9 +1551,9 @@
             </div>
           </div>
           <div id="footer-v3">
-            <div class="selectedOption" onclick="showSelected('list3')">
+            <div class="selectedOption" onclick="showSelected('list3','Plus3')">
                 <div class="footer-button">Valores</div>
-                <div class="buttonPlus">+</div>
+                <div class="buttonPlus" id="Plus3">+</div>
             </div>
                 <div class="footer-list" id="list3">
               <div class="footer-list-content">
@@ -1561,9 +1565,9 @@
             </div>
           </div>
           <div id="footer-v4">
-            <div class="selectedOption" onclick="showSelected('list4')">
+            <div class="selectedOption" onclick="showSelected('list4','Plus4')">
                 <div class="footer-button">Atención al cliente</div>
-                <div class="buttonPlus">+</div>
+                <div class="buttonPlus" id="Plus4">+</div>
             </div>
             <div class="footer-list" id="list4">
               <div class="footer-list-content">
@@ -1577,9 +1581,9 @@
             </div>
           </div>
           <div id="footer-v5">
-            <div class="selectedOption" onclick="showSelected('list5')">
+            <div class="selectedOption" onclick="showSelected('list5','Plus5')">
                 <div class="footer-button">Recursos</div>
-                <div class="buttonPlus">+</div>
+                <div class="buttonPlus" id="Plus5">+</div>
             </div>
             <div class="footer-list" id="list5">
               <div class="footer-list-content">
@@ -1592,9 +1596,9 @@
             </div>
           </div>
           <div id="footer-v6">
-            <div class="selectedOption" onclick="showSelected('list6')">
+            <div class="selectedOption" onclick="showSelected('list6','Plus6')">
                 <div class="footer-button">Conectar</div>
-                <div class="buttonPlus">+</div>
+                <div class="buttonPlus" id="Plus6">+</div>
             </div>
             <div class="footer-list" id="list6">
               <div class="footer-list-content">
@@ -1631,10 +1635,11 @@
           </div>
         <script>
             let doOnce = 0
-            function showSelected(selectedVar){
+            function showSelected(selectedVar, correspondingButton){
             let selected = document.getElementById(selectedVar)
-            if (doOnce === 0){selected.style.display = "block"; doOnce = 1}
-            else if (doOnce === 1){selected.style.display = "none"; doOnce = 0}
+            let buttonmas = document.getElementById(correspondingButton)
+            if (doOnce === 0){selected.style.display = "block"; doOnce = 1; buttonmas.style.transform = 'rotate(45deg)'}
+            else if (doOnce === 1){selected.style.display = "none"; doOnce = 0; buttonmas.style.transform = 'rotate(0deg)'}
             }
         </script>
         </div>
