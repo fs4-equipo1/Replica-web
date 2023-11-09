@@ -30,11 +30,12 @@
 
 .thismonthintop {
   display: flex;
+  margin-top: 40px;
   flex-wrap: wrap;
   color: white;
   font-size: 42px;
   padding: 10px;
-  margin-left: 30px;
+  margin-left: 150px;
 }
 
 .thismonthintop2 {
@@ -44,7 +45,7 @@
   font-size: 24px;
   padding: 10px;
   max-width: 600px;
-  margin-left: 30px;
+  margin-left:  150px;
 }
 
 .thismonthinbutton {
@@ -96,6 +97,10 @@
     padding: 2px;
   }
 
+  .button-container1 {
+    margin-left: 150px;
+  }
+
 
 
 .thismonthincardimage {
@@ -116,7 +121,7 @@
 
 .cardcontainer {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
     flex-direction: row;
     flex-wrap: wrap;
