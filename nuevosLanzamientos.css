@@ -144,3 +144,11 @@ p{
     grid-template-columns: repeat(3, 1fr);
   }
 }
+
+
+@media only screen and (max-width: 320px){
+  .games-container{
+    display: flex;
+    flex-direction: column;
+  }
+}
