@@ -19,7 +19,6 @@
   width: 100vw;
 
   background-color: white;
-
 }
 
 .container-menu-nav{
@@ -215,7 +214,9 @@
   line-height: 50px;
 } */
 
-
+.menuShown{
+  display: block;
+}
 
 
 @media (max-width: 769px) {
@@ -282,4 +283,10 @@
     transform: rotate(45deg) translate(-8px, -8px);
   }
 
+}
+
+@media (min-width: 769px) {
+  .menuShown{
+    display: none;
+  }
 }

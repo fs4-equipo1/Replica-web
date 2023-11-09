@@ -42,10 +42,11 @@
     margin: 10px 0; 
   }
 
-  .text-container-left {
+  .container > .text-container-left {
     justify-content: end;
     align-items: center;
     width: 380px;
+    padding-left: 0px;
   }
   .titulovr {
     text-align: center;
