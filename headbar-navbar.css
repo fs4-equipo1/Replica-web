@@ -219,9 +219,9 @@
 
 
 @media (max-width: 769px) {
+
   .header {
-    position: fixed;
-    bottom: 0;
+    display: none;
   }
 
   .dropdown {
